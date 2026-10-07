@@ -481,7 +481,7 @@ h1, h2, h3, p { margin: 0; }
   .js .reveal { opacity: 1; transform: none; }
 }
 
-/* ---------- Text pages (privacy, 404) ---------- */
+/* ---------- Text pages (privacy) ---------- */
 .doc { max-width: 720px; padding: 140px var(--gutter) 96px; margin: 0 auto; }
 .doc h1 {
   font-family: var(--display); font-weight: 600; text-transform: uppercase;
@@ -494,6 +494,4 @@ h1, h2, h3, p { margin: 0; }
 .doc p { color: var(--muted); margin-bottom: 14px; }
 .doc strong { color: var(--fg); font-weight: 500; }
 .doc .doc-lead { font-size: clamp(20px, 2.4vw, 26px); font-weight: 300; color: var(--fg); }
-.doc-404 { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding-top: 96px; }
-.doc-404 .btn { margin-top: 24px; }
 .doc-footer { padding-top: 32px; }

@@ -12,9 +12,9 @@ cd stoic && python3 -m http.server 8000
 
 ## Launch
 
-- **Hosting:** `.github/workflows/deploy-stoic.yml` publishes this folder to GitHub Pages on every push to `main`. One-time setup: repo **Settings → Pages → Source: GitHub Actions**. Live at https://itsmintra24-crypto.github.io/variance-tool/
+- **Hosting:** the repo's GitHub Pages (deploy from `main`) publishes this folder automatically on every push. Live at https://itsmintra24-crypto.github.io/variance-tool/stoic/
 - **Email sign-ups:** paste your form endpoint (e.g. a Formspree form URL) into `data-endpoint` on `#join-form` in `index.html`. Until then the form collects nothing and says sign-ups open soon.
-- **Custom domain:** add it under Settings → Pages, then replace `https://itsmintra24-crypto.github.io/variance-tool/` in `index.html` (canonical and social tags), `robots.txt` and `sitemap.xml`.
+- **Custom domain:** add it under Settings → Pages, then replace `https://itsmintra24-crypto.github.io/variance-tool/stoic/` in `index.html` (canonical and social tags) and `sitemap.xml`. A custom domain is easiest once the site has its own repository, so it doesn't take over the variance tool's Pages URL.
 - **Privacy:** `privacy.html` is a plain-language starting point. Review it, and name your email provider once chosen.
 
 To swap in real assets:
