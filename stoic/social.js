@@ -2,7 +2,7 @@
    Fill in `url` (and `handle`) for each account you use. Entries without a url are not shown.
    Used by index.html (Follow section) and links.html (link-in-bio page). */
 window.STOIC_SOCIAL = [
-  { name: "Instagram", handle: "", url: "" },
+  { name: "Instagram", handle: "@stoik_training", url: "https://www.instagram.com/stoik_training/" },
   { name: "TikTok",    handle: "", url: "" },
   { name: "YouTube",   handle: "", url: "" },
   { name: "Strava",    handle: "", url: "" },
