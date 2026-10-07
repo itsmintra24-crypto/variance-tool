@@ -11,7 +11,8 @@
     }
   };
 
-  document.getElementById("year").textContent = new Date().getFullYear();
+  var year = document.getElementById("year");
+  if (year) year.textContent = new Date().getFullYear();
 
   /* Reveal on scroll */
   var revealables = document.querySelectorAll(".reveal, .frame");
@@ -27,28 +28,6 @@
   } else {
     revealables.forEach(function (el) { el.classList.add("is-in", "in-view"); });
   }
-
-  /* Waitlist toggles */
-  var list = store.get("stoic.list", []);
-  var count = document.getElementById("bag-count");
-  function renderCount() { count.textContent = list.length; }
-  document.querySelectorAll(".product").forEach(function (card) {
-    var id = card.getAttribute("data-id");
-    var btn = card.querySelector(".add");
-    function paint() {
-      var on = list.indexOf(id) !== -1;
-      btn.setAttribute("aria-pressed", String(on));
-      btn.textContent = on ? "On your list" : "Join waitlist";
-    }
-    btn.addEventListener("click", function () {
-      var i = list.indexOf(id);
-      if (i === -1) list.push(id); else list.splice(i, 1);
-      store.set("stoic.list", list);
-      paint(); renderCount();
-    });
-    paint();
-  });
-  renderCount();
 
   /* The /ˈstōik/ Standard — 30 days, six daily commitments */
   var TOTAL = 30;
@@ -103,37 +82,4 @@
 
   renderStandard();
 
-  /* Community sign-up. Set data-endpoint on the form to any service that accepts
-     a JSON POST (e.g. Formspree). Without one, nothing is collected and the form says so. */
-  var form = document.getElementById("join-form");
-  var email = document.getElementById("email");
-  var note = document.getElementById("join-msg");
-  var submit = form.querySelector("button[type=submit]");
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    if (!email.validity.valid || !email.value) {
-      note.textContent = "Enter a valid email.";
-      email.focus();
-      return;
-    }
-    if (form.elements._gotcha.value) return;
-    var endpoint = form.getAttribute("data-endpoint");
-    if (!endpoint) {
-      note.textContent = "Sign-ups open soon. Follow the Log.";
-      return;
-    }
-    submit.disabled = true;
-    note.textContent = "Sending…";
-    fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json", "Accept": "application/json" },
-      body: JSON.stringify({ email: email.value, source: "stoic-site" })
-    }).then(function (res) {
-      if (!res.ok) throw new Error(res.status);
-      note.textContent = "You're in. Begin.";
-      form.reset();
-    }).catch(function () {
-      note.textContent = "That didn't go through. Try again.";
-    }).then(function () { submit.disabled = false; });
-  });
 })();
