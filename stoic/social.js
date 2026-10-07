@@ -7,7 +7,7 @@ window.STOIC_SOCIAL = [
   { name: "YouTube",   handle: "", url: "" },
   { name: "Strava",    handle: "", url: "" },
   { name: "Threads",   handle: "", url: "" },
-  { name: "X",         handle: "", url: "" },
+  { name: "X",         handle: "@MSaenbua", url: "https://x.com/MSaenbua" },
   { name: "Email",     handle: "", url: "" }  // e.g. url: "mailto:you@example.com"
 ];
 
