@@ -1,24 +1,32 @@
-# /ˈstōik/ — brand site
+# /ˈstōik/ — brand home
 
-Static, dependency-free site. Open `index.html` in a browser, or serve the folder:
+Static, dependency-free brand site. Live at https://itsmintra24-crypto.github.io/variance-tool/stoic/ (GitHub Pages publishes `main` automatically).
 
+| Page | URL | Purpose |
+| --- | --- | --- |
+| `index.html` | `/stoic/` | Brand homepage: philosophy, pillars, manifesto, origin story, the Log, the 30-day Standard |
+| `links.html` | `/stoic/links.html` | **Link-in-bio** — put this URL in every social profile |
+| `brand.html` | `/stoic/brand.html` | Identity guide: marks, colour, type, voice, downloadable social assets |
+| `privacy.html` | `/stoic/privacy.html` | Privacy note |
+
+## Edit your social links
+
+Open `social.js` and fill in `url` (and `handle`) for each account. Empty entries are hidden. The homepage "Do it anyway" section and the links page both read from it.
+
+```js
+{ name: "Instagram", handle: "@yourhandle", url: "https://instagram.com/yourhandle" },
 ```
-cd stoic && python3 -m http.server 8000
-```
 
-- `index.html` — page structure, following the brand homepage order (Hero → What you control → Built, not rushed → 001 / Foundation → Do it anyway), plus pillars, product system, archive, manifesto, origin story, Log and the 30-day Standard.
-- `styles.css` — design tokens (Obsidian / Bone / Stone / Graphite / Oxide), Barlow Condensed + Inter.
-- `main.js` — scroll reveals, waitlist toggles, the Standard checklist (saved in localStorage), sign-up form.
+## Brand assets (`brand/`)
 
-## Launch
+- `avatar-st-obsidian.png`, `avatar-st-bone.png`, `avatar-wordmark.png` — 1080×1080 profile pictures (circle-crop safe)
+- `banner-x.png` 1500×500, `banner-linkedin.png` 1584×396, `banner-youtube.png` 2560×1440
+- `story.png` 1080×1920 story / wallpaper
+- `st-on-obsidian.svg`, `st-on-bone.svg` — monogram vectors
+- `../og.png` — 1200×630 link preview
 
-- **Hosting:** the repo's GitHub Pages (deploy from `main`) publishes this folder automatically on every push. Live at https://itsmintra24-crypto.github.io/variance-tool/stoic/
-- **Email sign-ups:** paste your form endpoint (e.g. a Formspree form URL) into `data-endpoint` on `#join-form` in `index.html`. Until then the form collects nothing and says sign-ups open soon.
-- **Custom domain:** add it under Settings → Pages, then replace `https://itsmintra24-crypto.github.io/variance-tool/stoic/` in `index.html` (canonical and social tags) and `sitemap.xml`. A custom domain is easiest once the site has its own repository, so it doesn't take over the variance tool's Pages URL.
-- **Privacy:** `privacy.html` is a plain-language starting point. Review it, and name your email provider once chosen.
+## Notes
 
-To swap in real assets:
-- **Training image**: replace the SVG inside `.frame-art` with an `<img>` (full-bleed, `object-fit: cover`).
-- **Product photos**: replace the SVG in each `.product-visual`.
-- **Share image**: `og.png` (1200×630).
-- **ST monogram**: defined once as `<symbol id="st">` at the top of `index.html`.
+- Products are planned for a later phase, so there's no shop, waitlist or sign-up form.
+- `main.js` handles scroll reveals and the Standard tracker (saved in the visitor's browser only).
+- Custom domain: easiest once the site has its own repository. Then replace the `github.io/variance-tool/stoic/` URLs in the page `<head>`s and `sitemap.xml`.
