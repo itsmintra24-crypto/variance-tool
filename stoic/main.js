@@ -103,10 +103,12 @@
 
   renderStandard();
 
-  /* Community sign-up (front-end only; wire to your email provider) */
+  /* Community sign-up. Set data-endpoint on the form to any service that accepts
+     a JSON POST (e.g. Formspree). Without one, nothing is collected and the form says so. */
   var form = document.getElementById("join-form");
   var email = document.getElementById("email");
   var note = document.getElementById("join-msg");
+  var submit = form.querySelector("button[type=submit]");
   form.addEventListener("submit", function (e) {
     e.preventDefault();
     if (!email.validity.valid || !email.value) {
@@ -114,7 +116,24 @@
       email.focus();
       return;
     }
-    note.textContent = "You're in. Begin.";
-    form.reset();
+    if (form.elements._gotcha.value) return;
+    var endpoint = form.getAttribute("data-endpoint");
+    if (!endpoint) {
+      note.textContent = "Sign-ups open soon. Follow the Log.";
+      return;
+    }
+    submit.disabled = true;
+    note.textContent = "Sending…";
+    fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "application/json" },
+      body: JSON.stringify({ email: email.value, source: "stoic-site" })
+    }).then(function (res) {
+      if (!res.ok) throw new Error(res.status);
+      note.textContent = "You're in. Begin.";
+      form.reset();
+    }).catch(function () {
+      note.textContent = "That didn't go through. Try again.";
+    }).then(function () { submit.disabled = false; });
   });
 })();

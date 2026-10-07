@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://itsmintra24-crypto.github.io/variance-tool/sitemap.xml
