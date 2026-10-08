@@ -57,6 +57,7 @@ html,body{background:#090909}
 .tb.m,.tb .m{color:#A5A39D}
 .lab{font-size:36px;line-height:1.3;color:#A5A39D;margin-bottom:10px}
 .shift .rule{margin:54px 0 50px}
+.pre{font-weight:300;font-size:46px;line-height:56px;color:#A5A39D;margin-bottom:40px;letter-spacing:.005em}
 .p5{font-weight:300;font-size:46px;line-height:56px;margin-top:62px;letter-spacing:.005em}
 .t5{font-size:38px;line-height:54px;color:#A5A39D;margin-top:24px}
 `;
@@ -78,7 +79,7 @@ function slide(d, s, i, kind, hs) {
   else if (s.type === 'turn') body = `<div class="rule"></div><div class="h">${lines(s.en)}</div><div class="th t4">${lines(s.th)}</div>`;
   else if (s.type === 'shift') body = `<div class="th shift"><div class="lab">${esc(s.fromLabel || 'แทนที่จะคิดว่า')}</div><div class="tb m">${lines(s.from)}</div><div class="rule"></div><div class="lab">${esc(s.toLabel || 'ให้คิดว่า')}</div><div class="tb">${lines(s.to)}</div></div>`;
   else if (s.type === 'closing') {
-    body = `<div class="h">${lines(s.en)}</div>${s.sub ? `<div class="p5">${lines(s.sub)}</div>` : ''}<div class="th ${s.sub ? 't5' : 't7'}">${lines(s.th)}</div>`;
+    body = `${s.pre ? `<div class="pre">${lines(s.pre)}</div>` : ''}<div class="h">${lines(s.en)}</div>${s.sub ? `<div class="p5">${lines(s.sub)}</div>` : ''}<div class="th ${s.sub ? 't5' : 't7'}">${lines(s.th)}</div>`;
     footL = WORDMARK;
     if (s.cta) footR = `${esc(s.cta)}${s.ctaTh ? ` · <span class="th">${esc(s.ctaTh)}</span>` : ''}`;
   } else throw new Error(`slide ${i + 1}: unknown type "${s.type}"`);

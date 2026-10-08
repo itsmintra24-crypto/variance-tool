@@ -26,7 +26,7 @@ One JSON file per LOG in `logs/`. `logs/log-001.json` is the reference.
 | `date`, `topic`, `figure` | Not shown. Used to avoid repeating a theme or a philosopher |
 | `stamp` | Short label after "THE LOG ·" in the header, usually the philosopher's name |
 | `handle` | Shown bottom right |
-| `slides` | The slides, in order |
+| `slides` | The slides, in order. Use as many as the story needs, no more |
 
 Every array entry is one line on the slide. Lines never wrap by themselves, so the line breaks are the writer's choice. The script stops with an error if a line is wider than the frame (about 34 Thai characters or 24 English characters of body text) or a slide has too many lines. Headlines shrink to fit, so keep each headline line near 10 characters to keep them large.
 
@@ -39,4 +39,4 @@ Slide types:
 | `text` | `en`, `en2`, `th` | English body text (bright then muted) with a smaller Thai translation |
 | `turn` | `en`, `th` | Short rule, very large English headline, Thai line |
 | `shift` | `from`, `to` | "แทนที่จะคิดว่า" (muted) over "ให้คิดว่า" (bright) |
-| `closing` | `en`, `th`, optional `sub`, `cta`, `ctaTh` | Large English statement, Thai line, wordmark footer |
+| `closing` | `en`, `th`, optional `pre`, `sub`, `cta`, `ctaTh` | Optional muted English lead-in (`pre`), large English statement, Thai line, wordmark footer |
