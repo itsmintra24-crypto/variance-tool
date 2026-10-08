@@ -17,7 +17,7 @@ Needs Node and Playwright with Chromium. Fonts (Barlow Condensed, Inter, Noto Sa
 
 ## The source file
 
-One JSON file per LOG in `logs/`. `logs/log-001.json` is the reference.
+One JSON file per LOG in `logs/`. `logs/log-002.json` (written by Mintra) and `logs/log-001.json` are the references.
 
 | Field | Meaning |
 | --- | --- |
@@ -34,9 +34,10 @@ Slide types:
 
 | `type` | Fields | Look |
 | --- | --- | --- |
-| `hook` | `en`, `th` | LOG number, large English headline, Thai line below, "SWIPE" footer |
+| `hook` | `en` or `thh`, `th`, optional `brand` | LOG number, large English headline (`en`) or large bold Thai headline (`thh`), Thai line below, "SWIPE" footer. `brand: true` puts the wordmark bottom right |
+| `story` | `blocks`, optional `kicker` | Thai paragraphs. Each block is `{ "lines": [...], "tone": "muted" }` (omit `tone` for bright text). Text size shrinks to fit |
 | `thai` | `th`, `th2` | Thai body text. `th` lines are bright, `th2` lines are muted |
 | `text` | `en`, `en2`, `th` | English body text (bright then muted) with a smaller Thai translation |
 | `turn` | `en`, `th` | Short rule, very large English headline, Thai line |
 | `shift` | `from`, `to` | "แทนที่จะคิดว่า" (muted) over "ให้คิดว่า" (bright) |
-| `closing` | `en`, `th`, optional `pre`, `sub`, `cta`, `ctaTh` | Optional muted English lead-in (`pre`), large English statement, Thai line, wordmark footer |
+| `closing` | `en`, optional `kicker`, `pre`, `th`, `blocks`, `sub`, `cta`, `ctaTh` | Optional small label (`kicker`, e.g. STOIC TAKEAWAY) and muted English lead-in (`pre`), large English statement, then a Thai line (`th`) or Thai paragraphs (`blocks`), wordmark footer |

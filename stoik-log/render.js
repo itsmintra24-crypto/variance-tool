@@ -57,6 +57,11 @@ html,body{background:#090909}
 .tb.m,.tb .m{color:#A5A39D}
 .lab{font-size:36px;line-height:1.3;color:#A5A39D;margin-bottom:10px}
 .shift .rule{margin:54px 0 50px}
+.hth{font-family:"Thai",Inter,sans-serif;font-weight:700;font-stretch:75%;font-size:var(--hs);line-height:1.3}
+.story{font-size:var(--ts);line-height:1.5;color:#F1EFE9}
+.story .blk + .blk{margin-top:calc(var(--ts) * .6)}
+.h + .story,.hth + .story{margin-top:48px}
+.brandr{font-size:44px}
 .pre{font-weight:300;font-size:46px;line-height:56px;color:#A5A39D;margin-bottom:40px;letter-spacing:.005em}
 .p5{font-weight:300;font-size:46px;line-height:56px;margin-top:62px;letter-spacing:.005em}
 .t5{font-size:38px;line-height:54px;color:#A5A39D;margin-top:24px}
@@ -68,22 +73,32 @@ const WORDMARK = '<span class="wm">/<span class="wm-tick"></span>stōik/</span>'
 // Default headline size per slide type; shrunk automatically when it does not fit.
 const HEAD = { hook: 186, turn: 222, closing: 147 };
 
-function slide(d, s, i, kind, hs) {
+const blocks = b => (b || []).map(x => `<div class="blk${x.tone === 'muted' ? ' m' : ''}">${lines(x.lines)}</div>`).join('');
+
+function slide(d, s, i, kind, hs, ts) {
   const n = String(i + 1).padStart(2, '0'), N = String(d.slides.length).padStart(2, '0');
   const last = s.type === 'closing';
   const head = `<div class="head"><span>${last || !d.stamp ? 'THE LOG' : 'THE LOG · ' + esc(d.stamp)}</span><span>${n} / ${N}</span></div>`;
+  const kicker = s.kicker ? `<div class="no">${esc(s.kicker)}</div>` : '';
+  const story = s.blocks ? `<div class="th story">${blocks(s.blocks)}</div>` : '';
   let body = '', footL = esc(d.no), footR = esc(d.handle);
-  if (s.type === 'hook') { body = `<div class="no">${esc(d.no)}</div><div class="h">${lines(s.en)}</div><div class="th t1">${lines(s.th)}</div>`; footL = 'SWIPE' + ARROW; }
+  if (s.type === 'hook') {
+    const headline = s.thh ? `<div class="hth">${lines(s.thh)}</div>` : `<div class="h">${lines(s.en)}</div>`;
+    body = `<div class="no">${esc(d.no)}</div>${headline}${s.th ? `<div class="th t1">${lines(s.th)}</div>` : ''}${story}`;
+    footL = 'SWIPE' + ARROW;
+    if (s.brand) footR = `<span class="wm brandr">/<span class="wm-tick"></span>stōik/</span>`;
+  }
   else if (s.type === 'thai') body = `<div class="th tb">${lines(s.th)}${lines(s.th2, 'm')}</div>`;
+  else if (s.type === 'story') body = `${kicker}${story}`;
   else if (s.type === 'text') body = `<div class="p">${lines(s.en)}${lines(s.en2, 'm')}</div><div class="th t2">${lines(s.th)}</div>`;
   else if (s.type === 'turn') body = `<div class="rule"></div><div class="h">${lines(s.en)}</div><div class="th t4">${lines(s.th)}</div>`;
   else if (s.type === 'shift') body = `<div class="th shift"><div class="lab">${esc(s.fromLabel || 'แทนที่จะคิดว่า')}</div><div class="tb m">${lines(s.from)}</div><div class="rule"></div><div class="lab">${esc(s.toLabel || 'ให้คิดว่า')}</div><div class="tb">${lines(s.to)}</div></div>`;
   else if (s.type === 'closing') {
-    body = `${s.pre ? `<div class="pre">${lines(s.pre)}</div>` : ''}<div class="h">${lines(s.en)}</div>${s.sub ? `<div class="p5">${lines(s.sub)}</div>` : ''}<div class="th ${s.sub ? 't5' : 't7'}">${lines(s.th)}</div>`;
+    body = `${kicker}${s.pre ? `<div class="pre">${lines(s.pre)}</div>` : ''}<div class="h">${lines(s.en)}</div>${s.sub ? `<div class="p5">${lines(s.sub)}</div>` : ''}${s.th ? `<div class="th ${s.sub ? 't5' : 't7'}">${lines(s.th)}</div>` : ''}${story}`;
     footL = WORDMARK;
     if (s.cta) footR = `${esc(s.cta)}${s.ctaTh ? ` · <span class="th">${esc(s.ctaTh)}</span>` : ''}`;
   } else throw new Error(`slide ${i + 1}: unknown type "${s.type}"`);
-  return `<!doctype html><meta charset="utf-8"><style>${css}</style><div class="slide ${kind}" style="--hs:${hs}px"><div class="frame">${head}<div class="body">${body}</div><div class="foot"><span class="l">${footL}</span><span class="r">${footR}</span></div></div></div>`;
+  return `<!doctype html><meta charset="utf-8"><style>${css}</style><div class="slide ${kind}" style="--hs:${hs}px;--ts:${ts}px"><div class="frame">${head}<div class="body">${body}</div><div class="foot"><span class="l">${footL}</span><span class="r">${footR}</span></div></div></div>`;
 }
 
 const measure = () => {
@@ -92,7 +107,7 @@ const measure = () => {
     if (e.children.length && !e.matches('.l,.r,.wm')) return;
     const r = document.createRange(); r.selectNodeContents(e);
     const over = Math.round(r.getBoundingClientRect().right - f.right);
-    if (over > 1) wide.push({ text: e.textContent, over, headline: !!e.closest('.h') });
+    if (over > 1) wide.push({ text: e.textContent, over, headline: !!e.closest('.h,.hth'), story: !!e.closest('.story') });
   });
   const bd = document.querySelector('.body').getBoundingClientRect(), hd = document.querySelector('.head').getBoundingClientRect(), ft = document.querySelector('.foot').getBoundingClientRect();
   return { wide, gap: Math.round(Math.min(bd.top - hd.bottom, ft.top - bd.bottom)) };
@@ -112,20 +127,35 @@ const measure = () => {
 
   for (let i = 0; i < d.slides.length; i++) {
     const s = d.slides[i];
-    let hs = s.size || HEAD[s.type] || 0;
-    // Shrink the headline until it fits both formats, so both sizes look the same.
-    for (; hs > 96; hs -= 4) {
-      let ok = true;
-      for (const [kind] of FORMATS) { const m = await load(kind, slide(d, s, i, kind, hs)); if (m.wide.some(w => w.headline) || m.gap < MIN_GAP) ok = false; }
-      if (ok || !HEAD[s.type]) break;
+    const hasHead = !!(HEAD[s.type] && (s.en || s.thh)), hasStory = !!s.blocks;
+    let hs = s.size || (s.thh ? 180 : HEAD[s.type]) || 0;
+    let ts = s.textSize || (s.type === 'story' ? 60 : 48);
+    // Shrink the headline and/or the body text until the slide fits both formats,
+    // so both sizes look the same.
+    for (let k = 0; k < 80; k++) {
+      let hw = false, tw = false, tight = false;
+      for (const [kind] of FORMATS) {
+        const m = await load(kind, slide(d, s, i, kind, hs, ts));
+        if (m.wide.some(w => w.headline)) hw = true;
+        if (m.wide.some(w => w.story)) tw = true;
+        if (m.gap < MIN_GAP) tight = true;
+      }
+      if (!hw && !tw && !(tight && (hasHead || hasStory))) break;
+      if (hw && hs > 96) hs -= 4;
+      else if (tw && ts > 36) ts -= 2;
+      // Too tall: shrink body text to a readable floor first, then the headline, then the text again.
+      else if (tight && hasStory && ts > (hasHead ? 44 : 36)) ts -= 2;
+      else if (tight && hasHead && hs > 96) hs -= 4;
+      else if (tight && hasStory && ts > 36) ts -= 2;
+      else break;
     }
     for (const [kind, prefix] of FORMATS) {
-      const m = await load(kind, slide(d, s, i, kind, hs));
+      const m = await load(kind, slide(d, s, i, kind, hs, ts));
       for (const w of m.wide) problems.push(`slide ${i + 1} (${prefix}): line too wide by ${w.over}px, break it earlier: "${w.text}"`);
       if (m.gap < 60) problems.push(`slide ${i + 1} (${prefix}): too many lines, only ${m.gap}px of breathing room. Cut text.`);
       await pages[kind].screenshot({ path: path.join(out, `${prefix}-${d.slug}-${i + 1}.png`) });
     }
-    console.log(`slide ${i + 1} ${s.type}${HEAD[s.type] ? ' headline ' + hs + 'px' : ''}`);
+    console.log(`slide ${i + 1} ${s.type}${hasHead ? ' headline ' + hs + 'px' : ''}${hasStory ? ' text ' + ts + 'px' : ''}`);
   }
   await b.close();
   if (problems.length) { console.error('\nNOT READY TO POST:\n' + problems.join('\n')); process.exit(1); }

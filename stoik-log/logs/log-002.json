@@ -2,16 +2,35 @@
   "slug": "log-002",
   "no": "LOG 002",
   "date": "2026-10-08",
-  "topic": "Not waiting for motivation: I stopped waiting to feel motivated, I trained anyway",
-  "figure": "Marcus Aurelius (Meditations 5.1, reminding himself at dawn that he was not made to stay under the blankets)",
-  "stamp": "MARCUS AURELIUS",
+  "topic": "The scale isn't moving: measure progress by the behaviour you control, not the number",
+  "figure": "No named philosopher; the Stoic idea that outcomes are not fully in our control (written by Mintra)",
+  "stamp": "",
   "handle": "@stoik_training",
   "slides": [
-    { "type": "hook", "en": ["STILL", "WAITING FOR", "MOTIVATION?"], "th": ["ใครกำลังรอให้ตัวเองอยากซ้อมอยู่"] },
-    { "type": "thai", "th": ["ฉันเคยรอให้ตัวเองอยากซ้อม", "รอทุกเช้า"], "th2": ["รอให้หายง่วง รอให้อากาศดี", "รอให้มีอารมณ์", "สุดท้ายก็ไม่ได้ไปสักวัน"] },
-    { "type": "thai", "th": ["มาร์คัส ออเรลิอัส", "จักรพรรดิโรมันและนักปรัชญาสโตอิก"], "th2": ["เมื่อเกือบสองพันปีก่อน", "บางเช้าเขาก็ไม่อยากลุกจากเตียง", "เหมือนเราทุกคน"] },
-    { "type": "thai", "th": ["เขาไม่ได้รอให้อยากลุก", "แต่เขียนเตือนตัวเองไว้ว่า"], "th2": ["เราเกิดมาเพื่อนอนซุกผ้าห่ม", "หรือเกิดมาเพื่อลุกไปทำหน้าที่"] },
-    { "type": "thai", "th": ["ความอยากเป็นแค่ความรู้สึก", "มาบ้าง ไม่มาบ้าง"], "th2": ["แต่การลุกจากเตียง", "การผูกเชือกรองเท้า", "เราเลือกได้ทุกเช้า"] },
-    { "type": "closing", "pre": ["I stopped waiting to feel motivated."], "en": ["I TRAINED", "ANYWAY."], "th": ["เลิกรอให้อยาก", "แล้วก็ไปซ้อมอยู่ดี"] }
+    { "type": "hook", "brand": true, "thh": ["น้ำหนักไม่ลง"], "th": ["ไม่ได้แปลว่าเราทำได้ไม่ดีพอ"] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราชั่งน้ำหนัก", "แล้วเห็นตัวเลขเดิม"] },
+      { "lines": ["ทั้งที่ช่วงนี้", "ก็ออกกำลังกาย", "กินดีขึ้น", "พยายามมาตลอด"], "tone": "muted" },
+      { "lines": ["มันก็อดคิดไม่ได้ว่า"], "tone": "muted" },
+      { "lines": ["“แล้วที่ทำมาทั้งหมด", "มันได้อะไร?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["แต่ Stoicism เตือนเราว่า"], "tone": "muted" },
+      { "lines": ["ผลลัพธ์ไม่ใช่สิ่งที่เราควบคุมได้ทั้งหมด"] },
+      { "lines": ["น้ำหนักในแต่ละวัน", "ขึ้นหรือลงได้จากหลายอย่าง"], "tone": "muted" },
+      { "lines": ["สิ่งที่เราควบคุมได้จริง ๆ คือ"], "tone": "muted" },
+      { "lines": ["สิ่งที่เราเลือกทำในแต่ละวัน"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกถามว่า"], "tone": "muted" },
+      { "lines": ["“วันนี้น้ำหนักลดไหม?”"] },
+      { "lines": ["แล้วหันมาถามว่า"], "tone": "muted" },
+      { "lines": ["วันนี้เราได้ขยับร่างกายไหม", "กินในแบบที่เราตั้งใจไหม", "นอนพอไหม", "ทำสิ่งที่ควรทำหรือยัง?"] },
+      { "lines": ["เราวัดความก้าวหน้า", "จากสิ่งที่เราควบคุมได้"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["FOCUS ON", "THE PROCESS,", "NOT WHAT YOU", "CANNOT CONTROL."], "blocks": [
+      { "lines": ["ตัวเลขบนตาชั่ง", "เป็นแค่ข้อมูล"] },
+      { "lines": ["มันไม่ใช่คำตัดสินว่า", "เรากำลังทำได้ดีหรือไม่"], "tone": "muted" }
+    ] }
   ]
 }
