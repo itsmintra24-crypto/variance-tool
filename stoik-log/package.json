@@ -1,0 +1,11 @@
+{
+  "name": "stoik-log",
+  "private": true,
+  "description": "Renders the daily /ˈstōik/ LOG carousel in Instagram and TikTok sizes",
+  "scripts": { "render": "node render.js" },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-thai": "^5.0.0",
+    "@fontsource/barlow-condensed": "^5.0.0",
+    "@fontsource/inter": "^5.0.0"
+  }
+}
