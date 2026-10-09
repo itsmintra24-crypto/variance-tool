@@ -1,0 +1,34 @@
+{
+  "slug": "log-004",
+  "no": "LOG 004",
+  "date": "2026-10-10",
+  "topic": "Comparing yourself to others: getting overtaken on a run, and keeping to your own plan and pace instead of someone else's",
+  "figure": "Marcus Aurelius (Meditations 4.18: how much trouble he avoids who does not look at what his neighbour says, does or thinks, only at what he does himself; quoting Agathon, run straight along the line without deviating)",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["โดนแซง"], "th": ["แล้วเราก็ลืมแผนของตัวเอง"] },
+    { "type": "story", "blocks": [
+      { "lines": ["วันนี้เราตั้งใจวิ่งช้า ๆ", "ตามแผนที่วางไว้"] },
+      { "lines": ["แล้วก็มีคนวิ่งแซงไป", "ดูเบา ดูสบายกว่าเราเยอะ"], "tone": "muted" },
+      { "lines": ["ขาเราเร่งตามไปเองโดยไม่รู้ตัว", "แล้วในหัวก็เริ่มถามว่า"], "tone": "muted" },
+      { "lines": ["“ซ้อมมาตั้งนาน", "ทำไมเรายังช้าอยู่?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["มาร์คัส ออเรลิอัส", "จักรพรรดิโรมันเมื่อราว 1,800 ปีก่อน", "ผู้ศึกษาปรัชญาสโตอิก", "เคยเขียนเตือนตัวเองไว้ว่า"], "tone": "muted" },
+      { "lines": ["คนที่ไม่มัวมองว่า", "คนอื่นทำอะไร คิดอะไร", "จะตัดความวุ่นวายไปได้เยอะ"] },
+      { "lines": ["ให้ดูแค่สิ่งที่ตัวเองทำ", "แล้ววิ่งตรงไปตามเส้นของตัวเอง"], "tone": "muted" }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เดี๋ยวนี้พอมีคนแซง", "เราปล่อยให้เขาไป"] },
+      { "lines": ["แล้วกลับมาถามตัวเองแค่ว่า"], "tone": "muted" },
+      { "lines": ["วันนี้แผนของเราคืออะไร", "หายใจยังสบายอยู่ไหม", "พรุ่งนี้ยังมาซ้อมไหวไหม"] },
+      { "lines": ["ตอนไถมือถือก็เหมือนกัน"], "tone": "muted" },
+      { "lines": ["หุ่นใคร สถิติใคร", "เราดูได้ แต่ไม่เอามาวัดตัวเอง"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["KEEP TO", "YOUR OWN", "LINE."], "blocks": [
+      { "lines": ["ความเร็วของคนอื่น", "ไม่ใช่ไม้บรรทัดของเรา"] },
+      { "lines": ["เราช้าได้", "ขอแค่ยังวิ่งอยู่บนเส้นของตัวเอง"], "tone": "muted" }
+    ] }
+  ]
+}
