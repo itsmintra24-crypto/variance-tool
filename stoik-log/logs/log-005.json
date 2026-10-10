@@ -1,0 +1,35 @@
+{
+  "slug": "log-005",
+  "no": "LOG 005",
+  "date": "2026-10-11",
+  "topic": "Missing a workout: one missed day is not a habit, so don't wait for Monday, just do the next session on the plan",
+  "figure": "Epictetus (Discourses 2.18: every habit and faculty is strengthened by the corresponding acts, walking by walking, running by running; if you do not want something to become a habit, do not keep doing it)",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["ขาดซ้อมวันเดียว"], "th": ["ทำไมรู้สึกเหมือนพังทั้งสัปดาห์"] },
+    { "type": "story", "blocks": [
+      { "lines": ["เมื่อวานเราไม่ได้ไปซ้อม"] },
+      { "lines": ["ตั้งใจไว้แล้วแท้ ๆ", "แต่งานยุ่ง กลับมาก็หมดแรง", "แล้ววันก็ผ่านไปเฉย ๆ"], "tone": "muted" },
+      { "lines": ["เช้านี้เลยคิดไปแล้วว่า"], "tone": "muted" },
+      { "lines": ["“สัปดาห์นี้เสียไปแล้ว", "ไว้เริ่มใหม่วันจันทร์ละกัน”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เอพิคเททัส อดีตทาส", "ที่กลายมาเป็นครูปรัชญาสโตอิก", "เมื่อเกือบ 2,000 ปีก่อน สอนว่า"], "tone": "muted" },
+      { "lines": ["ทุกนิสัยแข็งแรงขึ้น", "จากการทำสิ่งนั้นซ้ำ ๆ"] },
+      { "lines": ["คนเดินเก่งเพราะเดินบ่อย", "คนวิ่งเก่งเพราะวิ่งบ่อย"], "tone": "muted" },
+      { "lines": ["อะไรที่ไม่อยากให้เป็นนิสัย", "ก็อย่าทำมันซ้ำ"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกรอวันจันทร์"], "tone": "muted" },
+      { "lines": ["ขาดหนึ่งวัน ยังไม่เป็นนิสัย", "แต่ถ้าหยุดต่อไปอีกหลายวัน", "เรากำลังฝึกตัวเองให้หยุด"] },
+      { "lines": ["เราไม่ซ้อมชดเชย ไม่โทษตัวเอง"], "tone": "muted" },
+      { "lines": ["แค่ไปซ้อมครั้งถัดไป", "ตามตารางเหมือนเดิม"] },
+      { "lines": ["คืนที่นอนดึก วันที่งานไม่เดิน", "ก็กลับมาแบบเดียวกัน"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["ONE MISS", "IS NOT", "A HABIT."], "blocks": [
+      { "lines": ["วันที่ขาดไปแล้ว", "เรากลับไปแก้ไม่ได้"] },
+      { "lines": ["ที่ยังอยู่ในมือเรา", "คือการซ้อมครั้งถัดไป"], "tone": "muted" }
+    ] }
+  ]
+}
