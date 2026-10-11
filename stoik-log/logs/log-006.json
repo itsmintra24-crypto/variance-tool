@@ -1,0 +1,33 @@
+{
+  "slug": "log-006",
+  "no": "LOG 006",
+  "date": "2026-10-12",
+  "topic": "Training around a full-time job: when the day leaves less time than planned, train with the time that is left instead of skipping the session",
+  "figure": "Marcus Aurelius (Meditations 5.20: our actions can be impeded but not our intention or disposition; the mind adapts and turns the obstacle to its own purpose; what stands in the way becomes the way)",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["ไม่มีเวลา"], "th": ["หรือแค่มีไม่เท่าที่วางแผนไว้"] },
+    { "type": "story", "blocks": [
+      { "lines": ["วันนี้เลิกงานช้า"] },
+      { "lines": ["ตั้งใจไว้ว่าจะซ้อมหนึ่งชั่วโมง", "แต่กว่างานจะเสร็จ", "ก็เหลือเวลาแค่ยี่สิบนาที"], "tone": "muted" },
+      { "lines": ["เราเลยเริ่มต่อรองกับตัวเองว่า"], "tone": "muted" },
+      { "lines": ["“ยี่สิบนาทีจะได้อะไร", "ข้ามไปเลยดีไหม?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["มาร์คัส ออเรลิอัส", "จักรพรรดิโรมันเมื่อราว 1,850 ปีก่อน", "ผู้ฝึกตนตามปรัชญาสโตอิก", "เขียนเตือนตัวเองไว้ว่า"], "tone": "muted" },
+      { "lines": ["อุปสรรคขวางสิ่งที่เราจะทำได้", "แต่ขวางความตั้งใจของเราไม่ได้"] },
+      { "lines": ["เพราะใจเราปรับตัวได้", "สิ่งที่ขวางทางอยู่", "ก็กลายเป็นทางให้เดินต่อ"], "tone": "muted" }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกรอวันที่ว่างพอ"], "tone": "muted" },
+      { "lines": ["มียี่สิบนาที ก็ซ้อมยี่สิบนาที", "วิ่งสั้นลง ยกน้อยลง", "แต่ยังได้ซ้อม"] },
+      { "lines": ["วันที่ฝนตก วันที่งานล้น", "วันที่ไม่มีเวลาทำกับข้าว", "เราก็ถามตัวเองแบบเดียวกัน"], "tone": "muted" },
+      { "lines": ["“เท่าที่มีตอนนี้", "เราทำอะไรได้บ้าง?”"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["USE WHAT", "THE DAY", "GIVES."], "blocks": [
+      { "lines": ["เราเลือกไม่ได้ว่า", "แต่ละวันจะเหลือเวลาเท่าไร"] },
+      { "lines": ["แต่เลือกได้ว่า", "จะใช้เวลาที่เหลือนั้นทำอะไร"], "tone": "muted" }
+    ] }
+  ]
+}
