@@ -1,0 +1,34 @@
+{
+  "slug": "log-007",
+  "no": "LOG 007",
+  "date": "2026-10-13",
+  "topic": "Doing hard things voluntarily: choosing small, safe discomforts on purpose so comfort stops making our decisions, and hard days are not the first hard thing we meet",
+  "figure": "Cato the Younger (Plutarch, Life of Cato the Younger 5.3: he built up his body with vigorous exercise, enduring heat and snow with uncovered head and journeying on foot in all seasons without a vehicle)",
+  "stamp": "CATO",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["เลือกทางยาก"], "th": ["ทั้งที่มีทางง่ายให้เลือก"] },
+    { "type": "story", "blocks": [
+      { "lines": ["ลิฟต์ว่างอยู่ตรงหน้า"] },
+      { "lines": ["บันไดอยู่ข้าง ๆ แค่สี่ชั้น", "เหนื่อยหน่อย แต่ขึ้นไหว", "และไม่มีใครบังคับให้ขึ้น"], "tone": "muted" },
+      { "lines": ["เสียงในหัวถามขึ้นมาว่า"], "tone": "muted" },
+      { "lines": ["“จะเหนื่อยไปทำไม", "ในเมื่อมีทางที่ง่ายกว่า?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["คาโตผู้เยาว์ นักการเมืองโรมัน", "เมื่อกว่า 2,000 ปีก่อน", "ผู้ใช้ชีวิตตามปรัชญาสโตอิก"], "tone": "muted" },
+      { "lines": ["ฝึกร่างกายให้ทนแดดและหิมะ", "โดยไม่มีอะไรคลุมหัว", "และเดินเท้าไปทุกที่ ทุกฤดู"] },
+      { "lines": ["สำหรับสโตอิก"], "tone": "muted" },
+      { "lines": ["ความลำบากที่เราเลือกเอง", "คือการซ้อมรับความลำบาก", "ที่เราไม่ได้เลือก"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกถามว่า", "ทางไหนสบายกว่า"], "tone": "muted" },
+      { "lines": ["แล้วเลือกเหนื่อยเล็ก ๆ ทุกวัน"] },
+      { "lines": ["ขึ้นบันไดแทนลิฟต์", "เดินระยะใกล้แทนเรียกรถ", "ทำเซ็ตสุดท้ายให้ครบ", "วางมือถือก่อนนอน"], "tone": "muted" },
+      { "lines": ["ไม่ใช่การทรมานตัวเอง", "แค่ซ้อมให้ใจคุ้น", "กับความไม่สบาย"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["CHOOSE", "DISCOMFORT", "ON PURPOSE."], "blocks": [
+      { "lines": ["ความลำบากเล็ก ๆ ที่เลือกเอง", "ทำให้วันที่ยากจริง ๆ", "ไม่ใช่ครั้งแรกของเรา"] },
+      { "lines": ["เราไม่ได้หนีความสบาย", "แค่ไม่ให้มันเลือกแทนเรา"], "tone": "muted" }
+    ] }
+  ]
+}
