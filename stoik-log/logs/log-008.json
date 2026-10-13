@@ -1,0 +1,35 @@
+{
+  "slug": "log-008",
+  "no": "LOG 008",
+  "date": "2026-10-14",
+  "topic": "Comparing yourself to others: someone else's pace or body is not a scoreboard for our own training; compare with who we were, not with whoever is next to us",
+  "figure": "Seneca (On Anger 3.31: no one who keeps looking at what others have is pleased with his own; we count those ahead of us, not those behind)",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["คนข้าง ๆ"], "th": ["ไม่ใช่เส้นชัยของเรา"] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราวิ่งอยู่บนลู่"] },
+      { "lines": ["ลู่ข้าง ๆ วิ่งเร็วกว่า", "ดูสบายกว่า", "แถมหุ่นก็ดีกว่า"], "tone": "muted" },
+      { "lines": ["พอกลับมาดูตัวเลขของตัวเอง", "ความภูมิใจเมื่อกี้ก็หายไป"], "tone": "muted" },
+      { "lines": ["“ซ้อมมาตั้งนาน", "ทำไมเรายังไม่ได้แบบนั้น?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เซเนกา นักปรัชญาสโตอิก", "ชาวโรมันเมื่อราว 2,000 ปีก่อน", "เขียนไว้ทำนองว่า"], "tone": "muted" },
+      { "lines": ["คนที่มัวมองของของคนอื่น", "จะไม่มีวันพอใจของของตัวเอง"] },
+      { "lines": ["เพราะเรามักนับคนที่นำหน้า", "แต่ลืมนับคนที่อยู่ข้างหลัง"], "tone": "muted" },
+      { "lines": ["และเราไม่เคยเห็นเลยว่า", "เขาจ่ายอะไรไปบ้างกว่าจะได้มา"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกถามว่า"], "tone": "muted" },
+      { "lines": ["“ทำไมเราไม่เหมือนเขา?”"] },
+      { "lines": ["แล้วหันมาถามว่า"], "tone": "muted" },
+      { "lines": ["เดือนนี้เราดีกว่าเดือนก่อนไหม", "วันนี้เราทำส่วนของเราครบไหม?"] },
+      { "lines": ["บนลู่ ในที่ทำงาน หรือในฟีด", "เราเทียบกับตัวเองคนเดียว"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["LOOK BACK,", "NOT", "SIDEWAYS."], "blocks": [
+      { "lines": ["ความเร็วของคนอื่น", "ไม่ได้ทำให้เราช้าลง"] },
+      { "lines": ["มันแค่ทำให้เราลืม", "ว่าเรามาไกลแค่ไหนแล้ว"], "tone": "muted" }
+    ] }
+  ]
+}
