@@ -1,0 +1,139 @@
+{
+  "slug": "log-009",
+  "no": "LOG 009",
+  "date": "2026-10-15",
+  "topic": "Training when you don't feel like it: not waiting for motivation; mood is not what decides whether we show up, so we take the first small step and let readiness follow",
+  "figure": "Marcus Aurelius (Meditations 5.1: at dawn, when reluctant to get up, remind yourself you rise to do the work of a human being; were you made to lie under the blankets and keep warm, born for pleasure rather than for action?)",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "hook",
+      "brand": true,
+      "thh": [
+        "ไม่อยากซ้อม"
+      ],
+      "th": [
+        "แล้วต้องรอให้อยากก่อนไหม"
+      ]
+    },
+    {
+      "type": "story",
+      "blocks": [
+        {
+          "lines": [
+            "นาฬิกาปลุกดังตอนเช้า",
+            "รองเท้าวิ่งวางรออยู่หน้าประตู"
+          ]
+        },
+        {
+          "lines": [
+            "แต่ผ้าห่มยังอุ่น",
+            "ร่างกายยังไม่ตื่น",
+            "ใจก็ไม่อยากไปไหนเลย"
+          ],
+          "tone": "muted"
+        },
+        {
+          "lines": [
+            "เสียงในหัวเลยบอกว่า"
+          ],
+          "tone": "muted"
+        },
+        {
+          "lines": [
+            "“รอให้มีอารมณ์ก่อน",
+            "แล้วค่อยไปก็ได้มั้ง?”"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "blocks": [
+        {
+          "lines": [
+            "มาร์คัส ออเรลิอัส",
+            "จักรพรรดิโรมันเมื่อราว 1,850 ปีก่อน",
+            "เขียนเตือนตัวเองไว้",
+            "ในเช้าที่ไม่อยากลุกจากเตียง"
+          ],
+          "tone": "muted"
+        },
+        {
+          "lines": [
+            "ว่าเราไม่ได้เกิดมา",
+            "เพื่อนอนอุ่น ๆ อยู่ใต้ผ้าห่ม"
+          ]
+        },
+        {
+          "lines": [
+            "แต่เกิดมาเพื่อลุกขึ้น",
+            "ไปทำงานในส่วนที่เป็นของเรา"
+          ],
+          "tone": "muted"
+        }
+      ]
+    },
+    {
+      "type": "story",
+      "blocks": [
+        {
+          "lines": [
+            "เราเลยเลิกรอให้อยากก่อน"
+          ],
+          "tone": "muted"
+        },
+        {
+          "lines": [
+            "วันที่ไม่มีอารมณ์",
+            "เราแค่ทำขั้นแรกให้ได้"
+          ]
+        },
+        {
+          "lines": [
+            "ลุกจากเตียง ใส่รองเท้า",
+            "ก้าวออกจากประตู"
+          ],
+          "tone": "muted"
+        },
+        {
+          "lines": [
+            "ที่เหลือ ค่อย ๆ ตามมาเอง"
+          ]
+        },
+        {
+          "lines": [
+            "งาน การกิน การนอน",
+            "ก็ไม่ต้องรอให้รู้สึกพร้อม"
+          ],
+          "tone": "muted"
+        }
+      ]
+    },
+    {
+      "type": "closing",
+      "kicker": "STOIC TAKEAWAY",
+      "en": [
+        "MOTION",
+        "BEFORE",
+        "MOOD."
+      ],
+      "blocks": [
+        {
+          "lines": [
+            "เราไม่ต้องรู้สึกพร้อม",
+            "ถึงจะเริ่มได้"
+          ]
+        },
+        {
+          "lines": [
+            "หลายครั้ง ความพร้อม",
+            "มาหลังจากที่เราเริ่มแล้ว"
+          ],
+          "tone": "muted"
+        }
+      ]
+    }
+  ]
+}
