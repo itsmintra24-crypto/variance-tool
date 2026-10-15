@@ -1,0 +1,40 @@
+{
+  "slug": "log-010",
+  "no": "LOG 010",
+  "date": "2026-10-15",
+  "topic": "How the brain learns: prepare (sleep, exercise), recall instead of rereading, accept the struggle of mistakes, rest so memory can consolidate (content supplied by Mintra)",
+  "figure": "No named philosopher (content supplied by Mintra)",
+  "stamp": "",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "en": ["HOW YOUR", "BRAIN", "LEARNS"], "th": ["เตรียม ลองนึก เจอความยาก แล้วพัก"] },
+    { "type": "story", "kicker": "01 · PREPARE", "blocks": [
+      { "lines": ["เตรียมสมองให้พร้อมก่อนเรียน"] },
+      { "lines": ["สมองที่ล้า", "เรียนอะไรก็ไม่ค่อยเข้าหัว"], "tone": "muted" },
+      { "lines": ["นอนให้พอ", "และหาเวลาขยับร่างกายบ้าง"] },
+      { "lines": ["การออกกำลังกาย", "ช่วยให้เราตื่นตัว", "และมีสมาธิมากขึ้น"], "tone": "muted" }
+    ] },
+    { "type": "story", "kicker": "02 · RECALL", "blocks": [
+      { "lines": ["ลองนึกเองก่อนเปิดดู"] },
+      { "lines": ["อ่านซ้ำหลายรอบ", "ไม่ได้แปลว่าจำได้"], "tone": "muted" },
+      { "lines": ["ปิดหนังสือ", "แล้วถามตัวเองว่าจำอะไรได้บ้าง"] },
+      { "lines": ["นึกไม่ออกค่อยเปิดดู", "แล้วลองนึกใหม่อีกรอบ"], "tone": "muted" }
+    ] },
+    { "type": "story", "kicker": "03 · STRUGGLE", "blocks": [
+      { "lines": ["ยากแปลว่ากำลังเรียนรู้"] },
+      { "lines": ["นึกไม่ออก หรือทำผิด", "ไม่ได้แปลว่าเราไม่เก่ง"], "tone": "muted" },
+      { "lines": ["ความหงุดหงิดตอนทำผิด", "กำลังบอกว่าตรงไหนต้องฝึกเพิ่ม"] },
+      { "lines": ["อย่าเพิ่งถอดใจ", "ลองอีกสักรอบ"], "tone": "muted" }
+    ] },
+    { "type": "story", "kicker": "04 · REST", "blocks": [
+      { "lines": ["พักก็เป็นส่วนหนึ่งของการเรียน"] },
+      { "lines": ["ปิดหนังสือแล้ว", "สมองยังทำงานต่อ"], "tone": "muted" },
+      { "lines": ["ตอนเรานอนหลับ", "สมองจะจัดระเบียบ", "สิ่งที่เรียนมาทั้งวัน"] },
+      { "lines": ["นอนให้พอ", "เราจึงจำได้และเอาไปใช้ได้จริง"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "TAKEAWAY", "en": ["CAN'T YET", "IS NOT", "CAN'T."], "blocks": [
+      { "lines": ["การเรียนรู้ไม่ได้แปลว่า", "ทุกอย่างต้องง่าย"] },
+      { "lines": ["แต่คือการค่อย ๆ", "ทำสิ่งที่เคยทำไม่ได้ ให้ทำได้"], "tone": "muted" }
+    ] }
+  ]
+}
