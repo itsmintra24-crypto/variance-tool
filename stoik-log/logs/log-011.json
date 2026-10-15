@@ -1,0 +1,39 @@
+{
+  "slug": "log-011",
+  "no": "LOG 011",
+  "date": "2026-10-16",
+  "topic": "Running slowly: easy pace is not failure; speed is not fully ours to choose, steadiness is, so we stop judging each session by how fast it was",
+  "figure": "Cleanthes (Diogenes Laertius 7.168-171: former boxer who drew water in gardens at night to study by day; industrious but slow, mocked as 'the ass', replied he alone could carry Zeno's load; succeeded Zeno as head of the school)",
+  "stamp": "CLEANTHES",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["ช้าก็ได้"], "th": ["ขอแค่ยังไปต่อ"] },
+    { "type": "story", "blocks": [
+      { "lines": ["วันนี้ซ้อมวิ่งเบา ๆ ตามแผน"] },
+      { "lines": ["เพซช้าจนแทบเหมือนเดิน", "ช้าจนไม่กล้าลงสตอรี่", "ก้มดูนาฬิกาทีไร ก็อยากเร่งทุกที"], "tone": "muted" },
+      { "lines": ["แล้วก็เผลอคิดว่า"], "tone": "muted" },
+      { "lines": ["“วิ่งช้าแบบนี้", "จะเก่งขึ้นได้ยังไง?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["คลีแอนธีส อดีตนักมวย", "ที่มาเป็นลูกศิษย์ของซีโน", "ผู้ก่อตั้งสโตอิก", "เมื่อราว 2,300 ปีก่อน"], "tone": "muted" },
+      { "lines": ["กลางคืนรับจ้างตักน้ำรดสวน", "กลางวันมานั่งเรียน"] },
+      { "lines": ["เขาขยัน แต่เรียนช้า", "จนถูกเพื่อน ๆ ล้อว่าเป็น “ลา”"], "tone": "muted" }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["คลีแอนธีสตอบกลับไปว่า"], "tone": "muted" },
+      { "lines": ["มีแต่ลานี่แหละ", "ที่แบกภาระของซีโนไหว"] },
+      { "lines": ["และคนที่เรียนช้าคนนั้น", "คือคนที่ได้สืบต่อสำนักจากซีโน"], "tone": "muted" },
+      { "lines": ["ความเร็ว เราเลือกไม่ได้ทั้งหมด", "แต่ความสม่ำเสมอ เราเลือกได้"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกตัดสินการซ้อม", "จากความเร็วของวันนี้"], "tone": "muted" },
+      { "lines": ["วันวิ่งเบา ก็วิ่งเบาจริง ๆ", "เพซที่ยังคุยได้ ไม่ต้องหอบ"] },
+      { "lines": ["เรื่องงาน เรื่องกิน เรื่องนอน", "ก็ช้าได้ ถ้ายังทำต่อ"], "tone": "muted" },
+      { "lines": ["เราถามแค่ว่า", "“สัปดาห์นี้ เรายังมาครบไหม?”"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["SLOW IS", "STILL", "MOVING."], "blocks": [
+      { "lines": ["คนที่ไปถึง", "ไม่จำเป็นต้องเร็วที่สุด"] },
+      { "lines": ["แค่ต้องเป็นคน", "ที่ยังไม่เลิกเดิน"], "tone": "muted" }
+    ] }
+  ]
+}
