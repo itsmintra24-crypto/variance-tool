@@ -1,0 +1,34 @@
+{
+  "slug": "log-012",
+  "no": "LOG 012",
+  "date": "2026-10-17",
+  "topic": "Waking up early: getting out of bed without waiting to feel ready; the snooze button is a negotiation we keep losing, so we stop negotiating",
+  "figure": "Marcus Aurelius (Meditations 5.1: at dawn, when reluctant to get up, remind yourself you are rising to do the work of a human being; were you made to lie under the blankets and keep warm?)",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["ขออีกห้านาที"], "th": ["ประโยคที่ชนะเรามาทุกเช้า"] },
+    { "type": "story", "blocks": [
+      { "lines": ["ตีห้าครึ่ง นาฬิกาปลุกดัง"] },
+      { "lines": ["ชุดซ้อมวางรอไว้ตั้งแต่เมื่อคืน", "แต่ผ้าห่มอุ่นกว่า", "ข้างนอกก็ยังมืดอยู่เลย"], "tone": "muted" },
+      { "lines": ["มือกดเลื่อนปลุกไปเอง", "พร้อมเหตุผลในหัวว่า"], "tone": "muted" },
+      { "lines": ["“เดี๋ยวตอนเย็น", "ค่อยไปก็ได้มั้ง”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["มาร์คัส ออเรลิอัส", "จักรพรรดิโรมันเมื่อราว 1,850 ปีก่อน", "เขียนเตือนตัวเองไว้", "ในเช้าที่ไม่อยากลุกจากเตียง"], "tone": "muted" },
+      { "lines": ["ว่าเราตื่นขึ้นมา", "เพื่อทำหน้าที่ของเรา"] },
+      { "lines": ["ไม่ได้เกิดมาเพื่อนอน", "ซุกผ้าห่มให้อุ่นสบาย"], "tone": "muted" },
+      { "lines": ["ขนาดจักรพรรดิ", "ก็ยังต้องเถียงกับผ้าห่ม"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกรอให้รู้สึกพร้อม", "ก่อนลุกจากเตียง"], "tone": "muted" },
+      { "lines": ["นาฬิกาดัง ก็ลุกเลย", "ไม่เปิดประชุมกับตัวเอง"] },
+      { "lines": ["วางนาฬิกาไว้ไกลเตียง", "เข้านอนให้เร็วขึ้น", "เตรียมของไว้ตั้งแต่คืนก่อน"], "tone": "muted" },
+      { "lines": ["ความพร้อมมักมาทีหลัง", "ตอนที่เราออกจากบ้านไปแล้ว"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["RISE FOR", "THE WORK."], "blocks": [
+      { "lines": ["เช้าที่อยากตื่น", "มีไม่กี่วัน"] },
+      { "lines": ["แต่เช้าที่ลุกขึ้นมาทำต่อ", "เราสร้างได้ทุกวัน"], "tone": "muted" }
+    ] }
+  ]
+}
