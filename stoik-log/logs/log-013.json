@@ -1,0 +1,35 @@
+{
+  "slug": "log-013",
+  "no": "LOG 013",
+  "date": "2026-10-18",
+  "topic": "Missing a workout: one missed session does not erase the habit; letting it run on does, so the next action after a miss is to come back, even with a shorter session",
+  "figure": "Epictetus (Discourses 2.18: every habit and faculty is kept up and strengthened by the corresponding actions, walking by walking, running by running; leave it off for a long time and it weakens)",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["พลาดไปวันเดียว"], "th": ["ไม่ได้ลบทุกอย่างที่ทำมา"] },
+    { "type": "story", "blocks": [
+      { "lines": ["เมื่อวานเราไม่ได้ไปซ้อม"] },
+      { "lines": ["งานเลิกดึก ร่างกายล้า", "เลยบอกตัวเองว่าเดี๋ยวพรุ่งนี้"], "tone": "muted" },
+      { "lines": ["เช้านี้ตื่นมา", "เสียงในหัวก็เริ่มพูดว่า"], "tone": "muted" },
+      { "lines": ["“พังไปแล้ว", "สัปดาห์นี้ปล่อยไปก่อนละกัน”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เอพิคเททัส นักปรัชญาสโตอิก", "ที่เคยเป็นทาส", "เมื่อเกือบสองพันปีก่อน สอนว่า"], "tone": "muted" },
+      { "lines": ["นิสัยทุกอย่างโตขึ้น", "จากการกระทำที่ทำซ้ำ"] },
+      { "lines": ["วิ่งบ่อย ก็วิ่งเก่งขึ้น", "ทิ้งไปนาน ๆ ก็ค่อย ๆ อ่อนลง"], "tone": "muted" },
+      { "lines": ["พลาดวันเดียว ยังไม่ใช่นิสัย", "แต่ทุกวันที่ปล่อยต่อ", "คือการซ้อม “การหยุด”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกถามว่า"], "tone": "muted" },
+      { "lines": ["“ทำไมเมื่อวานไม่ไป?”"] },
+      { "lines": ["แล้วถามแค่ว่า"], "tone": "muted" },
+      { "lines": ["“วันนี้กลับมาได้แค่ไหน?”"] },
+      { "lines": ["ได้ครึ่งเดียวก็นับ", "มื้อไหนหลุด มื้อถัดไปก็กลับมา"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["THE HABIT", "IS THE", "RETURN."], "blocks": [
+      { "lines": ["วันที่พลาด", "ไม่ได้บอกว่าเราเป็นใคร"] },
+      { "lines": ["วันถัดไปต่างหาก", "ที่เป็นคนบอก"], "tone": "muted" }
+    ] }
+  ]
+}
