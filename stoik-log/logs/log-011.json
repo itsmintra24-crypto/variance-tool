@@ -7,7 +7,7 @@
   "stamp": "CLEANTHES",
   "handle": "@stoik_training",
   "slides": [
-    { "type": "hook", "brand": true, "thh": ["ช้าก็ได้"], "th": ["ขอแค่ยังไปต่อ"] },
+    { "type": "hook", "brand": true, "thh": ["เพซนี้"], "th": ["ไม่ต้องอายใคร"] },
     { "type": "story", "blocks": [
       { "lines": ["วันนี้ซ้อมวิ่งเบา ๆ ตามแผน"] },
       { "lines": ["เพซช้าจนแทบเหมือนเดิน", "ช้าจนไม่กล้าลงสตอรี่", "ก้มดูนาฬิกาทีไร ก็อยากเร่งทุกที"], "tone": "muted" },
