@@ -1,0 +1,35 @@
+{
+  "slug": "log-014",
+  "no": "LOG 014",
+  "date": "2026-10-19",
+  "topic": "Becoming stronger without becoming obsessed: training should serve our life, not take it over; keep it short and simple, then return to the rest of life",
+  "figure": "Seneca (Moral Letters 15, On Brawn and Brains: not against exercise; recommends short, simple exercises such as running, swinging weights and jumping; warns against devoting oneself to building muscle; whatever you do, come back soon from body to mind)",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["แข็งแรงขึ้น"], "th": ["โดยไม่ต้องหมกมุ่นกับมัน"] },
+    { "type": "story", "blocks": [
+      { "lines": ["วันไหนซ้อมไม่ครบตามแผน", "เรารู้สึกผิดไปทั้งวัน"] },
+      { "lines": ["นับทุกแคลอรี่", "เช็กแอปทุกชั่วโมง", "ปฏิเสธมื้อเย็นกับเพื่อน", "เพราะกลัวแผนพัง"], "tone": "muted" },
+      { "lines": ["จนวันหนึ่งก็สงสัยว่า"], "tone": "muted" },
+      { "lines": ["“เรากำลังฝึกร่างกาย", "หรือร่างกายกำลังคุมเรา?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เซเนกา นักปรัชญาสโตอิก", "ชาวโรมันเมื่อราว 2,000 ปีก่อน", "เคยเขียนจดหมายถึงเพื่อน", "เรื่องการออกกำลังกาย"], "tone": "muted" },
+      { "lines": ["เขาไม่ได้บอกให้เลิกฝึก", "เขาแนะนำให้วิ่ง ยกน้ำหนัก กระโดด"] },
+      { "lines": ["แต่ให้ฝึกแบบสั้น ๆ เรียบง่าย", "แล้วรีบกลับมาดูแลจิตใจ"], "tone": "muted" },
+      { "lines": ["เพราะถ้าทุ่มทุกอย่างให้ร่างกาย", "ส่วนอื่นของชีวิตจะถูกทิ้งไว้"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["เราเลยเลิกถามว่า"], "tone": "muted" },
+      { "lines": ["“วันนี้ทำครบตามแผนเป๊ะไหม?”"] },
+      { "lines": ["แล้วหันมาถามว่า"], "tone": "muted" },
+      { "lines": ["ซ้อมเสร็จแล้ว", "เรามีแรงเหลือให้ชีวิตไหม?"] },
+      { "lines": ["ซ้อมให้จบในเวลาที่ตั้งไว้", "กินข้าวกับเพื่อนได้โดยไม่รู้สึกผิด", "แล้วเอาแรงที่ได้ไปใช้กับวันที่เหลือ"], "tone": "muted" }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["TRAIN IT.", "DON'T", "SERVE IT."], "blocks": [
+      { "lines": ["การฝึกที่ดี", "ควรทำให้ชีวิตกว้างขึ้น"] },
+      { "lines": ["ไม่ใช่ทำให้ทั้งโลกของเรา", "เหลือแค่ยิมกับตาชั่ง"], "tone": "muted" }
+    ] }
+  ]
+}
