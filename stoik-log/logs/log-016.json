@@ -1,0 +1,15 @@
+{
+  "slug": "log-016",
+  "no": "LOG 016",
+  "date": "2026-10-20",
+  "topic": "Programme-hopping: switching training plans every week means no plan ever gets the time to work; pick one and stay with it long enough to grow",
+  "figure": "Seneca (Moral Letters 2.2-3, On Discursiveness in Reading: 'Everywhere means nowhere' (Gummere tr.; Latin 'nusquam est qui ubique est'); a plant which is often moved can never grow strong). Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "SENECA · LETTER 2", "en": ["“EVERYWHERE", "MEANS", "NOWHERE.”"], "blocks": [
+      { "lines": ["เปลี่ยนโปรแกรมทุกสัปดาห์", "ก็เหมือนยังไม่ได้เริ่มสักโปรแกรม"] },
+      { "lines": ["ต้นไม้ที่ถูกย้ายที่บ่อย ๆ", "ไม่มีเวลาหยั่งราก"], "tone": "muted" }
+    ] }
+  ]
+}
