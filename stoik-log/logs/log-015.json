@@ -1,0 +1,36 @@
+{
+  "slug": "log-015",
+  "no": "LOG 015",
+  "date": "2026-10-20",
+  "topic": "Training when you don't feel like it: not wanting to train is a feeling, not a decision; we stop waiting to feel ready, start small, and rest only by choice",
+  "figure": "No named philosopher; the general Stoic distinction between an impression or feeling that arises (not up to us) and our assent and action (up to us)",
+  "stamp": "",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "hook", "brand": true, "thh": ["ไม่อยากซ้อม"], "th": ["เป็นแค่ความรู้สึก ยังไม่ใช่คำตอบ"] },
+    { "type": "story", "blocks": [
+      { "lines": ["รองเท้าวางอยู่หน้าประตู", "ชุดเตรียมไว้ตั้งแต่เมื่อคืน"] },
+      { "lines": ["แต่พอถึงเวลาจริง", "ใจกลับไม่อยากไปเลย"], "tone": "muted" },
+      { "lines": ["เราเลยนั่งรอ", "ให้รู้สึกพร้อมก่อน"], "tone": "muted" },
+      { "lines": ["“ถ้ายังไม่อยาก", "ฝืนไปจะดีเหรอ?”"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["Stoicism ชวนเราแยก", "ของสองอย่างออกจากกัน"], "tone": "muted" },
+      { "lines": ["ความรู้สึกที่เกิดขึ้น", "กับสิ่งที่เราเลือกทำ"] },
+      { "lines": ["ความรู้สึกไม่อยาก", "มาเองได้ เราห้ามมันไม่ได้"], "tone": "muted" },
+      { "lines": ["แต่จะทำตามมันหรือไม่"], "tone": "muted" },
+      { "lines": ["ยังเป็นการตัดสินใจของเรา"] }
+    ] },
+    { "type": "story", "blocks": [
+      { "lines": ["ตอนนี้เราไม่รอให้อยากแล้ว"], "tone": "muted" },
+      { "lines": ["แค่ใส่รองเท้า", "แล้วเริ่มสิบนาทีแรก"] },
+      { "lines": ["หลายครั้ง ความพร้อม", "ตามมาหลังจากเราเริ่มไปแล้ว"], "tone": "muted" },
+      { "lines": ["ถ้าร่างกายเจ็บหรือป่วยจริง", "เราพัก"], "tone": "muted" },
+      { "lines": ["แต่เราพักเพราะเลือก", "ไม่ใช่เพราะความรู้สึกเลือกแทน"] }
+    ] },
+    { "type": "closing", "kicker": "STOIC TAKEAWAY", "en": ["FEELINGS", "ARE NOT", "ORDERS."], "blocks": [
+      { "lines": ["ความรู้สึกไม่อยาก", "มาเยือนได้ทุกวัน"] },
+      { "lines": ["แต่คนที่ตัดสินใจ", "ว่าจะออกไปหรือไม่", "ยังเป็นเรา"], "tone": "muted" }
+    ] }
+  ]
+}
