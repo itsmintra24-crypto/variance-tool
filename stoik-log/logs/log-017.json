@@ -1,0 +1,36 @@
+{
+  "slug": "log-017",
+  "no": "LOG 017",
+  "date": "2026-10-21",
+  "topic": "Choosing long-term health over short-term pleasure: the effort of training passes quickly but what it builds stays; the comfort we choose instead passes just as fast and leaves nothing behind",
+  "figure": "Musonius Rufus (saying preserved by Aulus Gellius, Attic Nights 16.1: if you accomplish something noble with toil, the toil passes but the noble deed remains; if something shameful with pleasure, the pleasure passes but the shame remains; Gellius notes Cato the Elder said much the same at Numantia). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MUSONIUS RUFUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MUSONIUS RUFUS",
+      "en": [
+        "THE EFFORT",
+        "PASSES.",
+        "THE GOOD",
+        "STAYS."
+      ],
+      "blocks": [
+        {
+          "lines": [
+            "ความเหนื่อยผ่านไปในไม่กี่ชั่วโมง",
+            "แต่สิ่งที่มันสร้าง อยู่กับเราต่อ"
+          ]
+        },
+        {
+          "lines": [
+            "ความสบายก็ผ่านไปเร็วพอกัน",
+            "แค่ไม่ทิ้งอะไรไว้ให้เลย"
+          ],
+          "tone": "muted"
+        }
+      ]
+    }
+  ]
+}
