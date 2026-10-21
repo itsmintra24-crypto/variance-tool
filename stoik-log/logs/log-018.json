@@ -1,0 +1,20 @@
+{
+  "slug": "log-018",
+  "no": "LOG 018",
+  "date": "2026-10-22",
+  "topic": "Plateaus: when progress looks flat, the body is still adding up small, repeated sessions; we keep stacking them instead of quitting or changing everything",
+  "figure": "Zeno of Citium, founder of Stoicism (Diogenes Laertius, Lives 7.26: well-being is attained little by little, and yet it is no little thing itself). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "ZENO",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "ZENO OF CITIUM",
+      "en": ["SMALL", "STEPS.", "NO SMALL", "THING."],
+      "blocks": [
+        { "lines": ["ช่วงที่ไม่เห็นอะไรขยับ", "คือช่วงที่ร่างกายกำลังสะสม"] },
+        { "lines": ["ทีละนิดไม่เคยดูเป็นเรื่องใหญ่", "จนวันที่เรามองย้อนกลับไป"], "tone": "muted" }
+      ]
+    }
+  ]
+}
