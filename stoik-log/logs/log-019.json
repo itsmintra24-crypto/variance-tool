@@ -1,0 +1,20 @@
+{
+  "slug": "log-019",
+  "no": "LOG 019",
+  "date": "2026-10-23",
+  "topic": "Body image and approval: training for compliments or likes puts our progress in other people's hands; the work is not worth less because nobody praised it",
+  "figure": "Marcus Aurelius (Meditations 4.20: what is beautiful is beautiful in itself, and praise is no part of it, so it is made neither worse nor better by being praised; is an emerald made worse if it is not praised?). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS",
+      "en": ["PRAISE", "ADDS", "NOTHING."],
+      "blocks": [
+        { "lines": ["ไม่มีใครชมว่าหุ่นดีขึ้น", "ไม่ได้แปลว่าเราไม่ได้ก้าวหน้า"] },
+        { "lines": ["มรกตไม่ได้ด้อยค่าลง", "เพียงเพราะไม่มีใครชมมัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
