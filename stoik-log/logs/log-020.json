@@ -1,0 +1,20 @@
+{
+  "slug": "log-020",
+  "no": "LOG 020",
+  "date": "2026-10-24",
+  "topic": "Dreading a hard session: the workout we fear all day is heavier in our head than under the bar; we stop rehearsing the dread and just start the first set",
+  "figure": "Seneca (Moral Letters 13.4: there are more things likely to frighten us than to crush us; we suffer more often in imagination than in reality). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA",
+      "en": ["HEAVIER", "IN YOUR", "HEAD."],
+      "blocks": [
+        { "lines": ["เซสชันที่เรากลัวมาทั้งวัน", "ตอนลงมือจริงมักเบากว่าในหัว"] },
+        { "lines": ["เราทุกข์กับสิ่งที่คิดไปเอง", "บ่อยกว่าสิ่งที่เกิดขึ้นจริง"], "tone": "muted" }
+      ]
+    }
+  ]
+}
