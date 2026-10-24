@@ -1,0 +1,20 @@
+{
+  "slug": "log-021",
+  "no": "LOG 021",
+  "date": "2026-10-25",
+  "topic": "Waiting for Monday to restart: after a bad meal, a skipped session or an off day we push the fresh start to next week; the next choice is already the restart",
+  "figure": "Epictetus (Discourses 3.25, To those who fail to achieve their purposes: life is a contest, and unlike the Olympics you need not wait for the next one; as soon as you pick yourself up you can compete again, and if you win it is as if you never gave in). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS",
+      "en": ["DON'T WAIT", "FOR", "MONDAY."],
+      "blocks": [
+        { "lines": ["พลาดไปหนึ่งมื้อ หนึ่งวัน", "ไม่ต้องรอเริ่มใหม่วันจันทร์"] },
+        { "lines": ["ลุกขึ้นได้เมื่อไหร่", "ก็กลับลงสนามได้เมื่อนั้น"], "tone": "muted" }
+      ]
+    }
+  ]
+}
