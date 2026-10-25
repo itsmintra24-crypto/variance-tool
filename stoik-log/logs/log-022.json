@@ -1,0 +1,20 @@
+{
+  "slug": "log-022",
+  "no": "LOG 022",
+  "date": "2026-10-26",
+  "topic": "Talking about discipline instead of practising it: researching, planning and announcing goals feels like progress, but only the done session counts; stop describing the disciplined person and be one today",
+  "figure": "Marcus Aurelius (Meditations 10.16: no more discussing at all what kind of man a good man ought to be, but be one). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS",
+      "en": ["ENOUGH", "TALK.", "BE IT."],
+      "blocks": [
+        { "lines": ["เลิกพูดว่าคนมีวินัยควรเป็นยังไง", "แล้วเป็นคนแบบนั้นวันนี้"] },
+        { "lines": ["ร่างกายไม่ได้ฟังสิ่งที่เราพูด", "มันจำแค่สิ่งที่เราทำซ้ำ"], "tone": "muted" }
+      ]
+    }
+  ]
+}
