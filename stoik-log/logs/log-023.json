@@ -1,0 +1,20 @@
+{
+  "slug": "log-023",
+  "no": "LOG 023",
+  "date": "2026-10-27",
+  "topic": "Buying a fresh start: new shoes, a new gym, a new app or a new plan feel like change, but the habits come along with us; what has to change is how we show up, not the gear or the place",
+  "figure": "Seneca (Moral Letters 28.1-2: you need a change of mind, not of climate; he recalls Socrates asking why someone was surprised travel did not help, since he took himself along wherever he went). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA",
+      "en": ["CHANGE", "THE MIND,", "NOT THE", "GEAR."],
+      "blocks": [
+        { "lines": ["รองเท้าคู่ใหม่ ยิมใหม่ แผนใหม่", "ไม่ได้พาวินัยมาให้เรา"] },
+        { "lines": ["ไม่ว่าจะไปซ้อมที่ไหน", "เราก็พาตัวเองไปด้วยเสมอ"], "tone": "muted" }
+      ]
+    }
+  ]
+}
