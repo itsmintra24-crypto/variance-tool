@@ -1,0 +1,20 @@
+{
+  "slug": "log-024",
+  "no": "LOG 024",
+  "date": "2026-10-28",
+  "topic": "Wanting the result without the routine: before setting a goal, look honestly at what it takes every ordinary day (fixed sessions, eating with restraint, training in heat and cold); if we still want it, choose all of it and begin",
+  "figure": "Epictetus (Enchiridion 29, also Discourses 3.15: you want to win at Olympia? consider what comes before and after it, the regimen, eating by rule, training at a set hour in heat and cold; then, if you still want it, begin). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS",
+      "en": ["WANT THE", "RESULT?", "WANT THE", "ROUTINE."],
+      "blocks": [
+        { "lines": ["ก่อนตั้งเป้า ลองดูให้ครบ", "ว่ามันต้องแลกกับอะไรทุกวัน"] },
+        { "lines": ["ถ้ายังอยากได้อยู่", "ก็เลือกทั้งหมดนั้น แล้วเริ่ม"], "tone": "muted" }
+      ]
+    }
+  ]
+}
