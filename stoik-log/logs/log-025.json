@@ -1,0 +1,20 @@
+{
+  "slug": "log-025",
+  "no": "LOG 025",
+  "date": "2026-10-29",
+  "topic": "All-or-nothing training: when the week doesn't go to plan we throw the whole plan away; instead we return to where we slipped and count the week by what was mostly right, not by what was perfect",
+  "figure": "Marcus Aurelius (Meditations 5.9: do not be disgusted, discouraged or dissatisfied if you fail to act rightly in everything; when beaten, come back again, and be content if the greater part of what you do is right). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS",
+      "en": ["NOT", "PERFECT.", "MOSTLY", "RIGHT."],
+      "blocks": [
+        { "lines": ["สัปดาห์นี้ไม่ได้ตามแผนทุกวัน", "ไม่ได้แปลว่าต้องทิ้งทั้งหมด"] },
+        { "lines": ["พลาดตรงไหน ก็กลับมาตรงนั้น", "ถ้าส่วนใหญ่ยังถูกทาง ก็พอแล้ว"], "tone": "muted" }
+      ]
+    }
+  ]
+}
