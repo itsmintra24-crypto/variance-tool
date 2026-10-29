@@ -1,0 +1,20 @@
+{
+  "slug": "log-026",
+  "no": "LOG 026",
+  "date": "2026-10-30",
+  "topic": "Keeping your routine when the people around you don't: friends ask for one more drink, one more late night, one more 'just this once'; we can stay warm with them and still go home to sleep before tomorrow's session, because doing what everyone does gets us what everyone gets",
+  "figure": "Chrysippus of Soli, third head of the Stoic school, c. 282-206 BC (Diogenes Laertius, Lives 7.179: before philosophy he trained as a long-distance runner; 7.182: asked why he did not go with the crowd to hear Ariston, he said that had he followed the multitude he would not have studied philosophy). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "CHRYSIPPUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "CHRYSIPPUS",
+      "en": ["THE CROWD", "IS NOT", "YOUR PLAN."],
+      "blocks": [
+        { "lines": ["เพื่อนชวนอยู่ต่ออีกแก้ว", "เราขอกลับก่อน พรุ่งนี้มีซ้อมเช้า"] },
+        { "lines": ["ถ้าเดินตามทุกคนไปตลอด", "เราก็จะได้แบบที่ทุกคนได้"], "tone": "muted" }
+      ]
+    }
+  ]
+}
