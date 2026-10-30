@@ -1,0 +1,20 @@
+{
+  "slug": "log-027",
+  "no": "LOG 027",
+  "date": "2026-10-31",
+  "topic": "Training for longevity: we are not training for this season or this photo but for the body we will live in for decades; growing old is not ours to stop, letting the body decline through neglect is ours to refuse",
+  "figure": "Socrates, Athenian philosopher c. 470-399 BC, the figure the Stoics most admired (Xenophon, Memorabilia 3.12: to the out-of-condition young Epigenes, it is a disgrace to grow old through carelessness before seeing how strong and fit the body can become; poor condition also hurts thinking and memory). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SOCRATES",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SOCRATES",
+      "en": ["DON'T", "GROW OLD", "BY NEGLECT."],
+      "blocks": [
+        { "lines": ["เราไม่ได้ซ้อมแค่เพื่อปีนี้", "แต่เพื่อร่างกายที่ต้องใช้ไปอีกนาน"] },
+        { "lines": ["แก่ลงเป็นเรื่องที่ห้ามไม่ได้", "แต่โทรมลงเพราะละเลย เราไม่ต้องยอม"], "tone": "muted" }
+      ]
+    }
+  ]
+}
