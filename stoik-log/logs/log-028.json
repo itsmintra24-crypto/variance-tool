@@ -1,0 +1,20 @@
+{
+  "slug": "log-028",
+  "no": "LOG 028",
+  "date": "2026-11-01",
+  "topic": "Training through a setback in the body: when we are sore, sick or nursing a niggle, the body can do less, but it does not choose for us; we rest the part that hurts and keep looking after the parts that still work, instead of writing the whole week off",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD, a former slave who was lame (Enchiridion 9: illness is an impediment to the body but not to our choice, unless we will it; lameness is an impediment to the leg, not to our choice). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS",
+      "en": ["THE BODY", "IS LIMITED.", "THE CHOICE", "IS NOT."],
+      "blocks": [
+        { "lines": ["วันที่ร่างกายเจ็บหรือป่วย", "เราทำได้น้อยลงจริง", "แต่มันไม่ได้เลือกแทนเรา"] },
+        { "lines": ["พักส่วนที่เจ็บ", "แล้วดูแลส่วนที่ยังทำได้"], "tone": "muted" }
+      ]
+    }
+  ]
+}
