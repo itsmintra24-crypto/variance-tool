@@ -1,0 +1,20 @@
+{
+  "slug": "log-029",
+  "no": "LOG 029",
+  "date": "2026-11-02",
+  "topic": "Training half-present: scrolling the phone between sets, body in the gym but mind somewhere else; we give the set in front of us our full attention and let everything else wait until the session is done",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 2.5: put your whole mind on the task in front of you, with care and seriousness, and free yourself from every other distraction; do each thing as if it were the last of your life, without aimlessness). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS",
+      "en": ["ONE SET.", "FULL", "ATTENTION."],
+      "blocks": [
+        { "lines": ["ตัวอยู่ในยิม", "แต่ใจอยู่ในมือถือ"] },
+        { "lines": ["ทำเซตตรงหน้าให้เต็มที่", "เรื่องอื่นรอได้"], "tone": "muted" }
+      ]
+    }
+  ]
+}
