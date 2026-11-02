@@ -1,0 +1,20 @@
+{
+  "slug": "log-030",
+  "no": "LOG 030",
+  "date": "2026-11-03",
+  "topic": "When plans fall apart outside our control: rain on a run day, the gym closed, the day rearranged; fighting what already happened changes nothing, so we accept it willingly and adjust the session instead of sulking or skipping",
+  "figure": "Cleanthes of Assos, second head of the Stoic school after Zeno, c. 330-230 BC (his verses quoted by Epictetus, Enchiridion 53, and translated by Seneca, Moral Letters 107.11: lead me, Zeus and Destiny, and I will follow without hesitation; if I am unwilling I will follow all the same; Seneca adds: the fates lead the willing and drag the unwilling). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "CLEANTHES",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "CLEANTHES",
+      "en": ["WILLING", "OR DRAGGED.", "YOU STILL", "GO."],
+      "blocks": [
+        { "lines": ["ฝนตก ยิมปิด แผนพัง", "เราเลือกไม่ได้"] },
+        { "lines": ["แต่เลือกได้ว่าจะไปต่อ", "แบบฝืนใจ หรือเต็มใจ"], "tone": "muted" }
+      ]
+    }
+  ]
+}
