@@ -1,0 +1,20 @@
+{
+  "slug": "log-031",
+  "no": "LOG 031",
+  "date": "2026-11-03",
+  "topic": "When the goal feels too big: picturing all the months of training ahead at once makes today feel heavy enough to skip; we stop carrying the whole road and only ask whether this one session, this one set, is really beyond us",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 8.36: do not let the picture of your whole life crush you or gather up in your mind all the troubles to come; ask of each present thing what in it is unbearable, and you will be ashamed to answer). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS",
+      "en": ["NOT THE", "WHOLE ROAD.", "JUST", "TODAY."],
+      "blocks": [
+        { "lines": ["มองทั้งเส้นทางทีเดียว", "ก็หนักจนไม่อยากเริ่ม"] },
+        { "lines": ["ถามแค่ว่า เซตตรงหน้า", "มันเกินไหวตรงไหน?"], "tone": "muted" }
+      ]
+    }
+  ]
+}
