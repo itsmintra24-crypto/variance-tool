@@ -1,0 +1,20 @@
+{
+  "slug": "log-032",
+  "no": "LOG 032",
+  "date": "2026-11-05",
+  "topic": "Consistency of character: fired up on Monday, gone by Friday; one person in a good week and another in a tired one; discipline is not our best day but being the same person who shows up on ordinary days",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (Moral Letters 120.22: count it a great thing to play the part of one single person; apart from the wise, no one does, the rest of us take many shapes and change from day to day). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA · LETTER 120",
+      "en": ["ONE PERSON.", "EVERY DAY."],
+      "blocks": [
+        { "lines": ["จันทร์ไฟแรง ศุกร์หายไป", "สัปดาห์เดียว เราเป็นหลายคน"] },
+        { "lines": ["วินัยไม่ใช่วันที่ดีที่สุด", "แต่คือการเป็นคนเดิมทุกวัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
