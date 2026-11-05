@@ -1,0 +1,20 @@
+{
+  "slug": "log-033",
+  "no": "LOG 033",
+  "date": "2026-11-06",
+  "topic": "Training as practice for character: the patience that keeps us on the last rep, a slow pace or an honest meal is the same patience we carry into work and the rest of the day; training the body also trains the mind",
+  "figure": "Musonius Rufus, Roman Stoic teacher of the 1st century AD and teacher of Epictetus (Lectures 6, On Training: there is training for the soul alone and training common to soul and body; by accustoming ourselves to cold, heat, hunger, thirst, simple food and enduring hardship, the body is strengthened and the soul is trained for courage and self-control). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MUSONIUS RUFUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MUSONIUS RUFUS · LECTURE 6",
+      "en": ["EVERY REP", "TRAINS", "THE MIND."],
+      "blocks": [
+        { "lines": ["ครั้งสุดท้ายที่ยังยกต่อ", "ไม่ได้ฝึกแค่กล้ามเนื้อ"] },
+        { "lines": ["ความอดทนที่ฝึกในยิม", "เราพกกลับไปใช้ทุกวัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
