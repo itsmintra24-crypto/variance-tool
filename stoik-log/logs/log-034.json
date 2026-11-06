@@ -1,0 +1,20 @@
+{
+  "slug": "log-034",
+  "no": "LOG 034",
+  "date": "2026-11-07",
+  "topic": "Fear of looking like a beginner: light weights, clumsy form, worrying what others in the gym think; to improve we have to accept looking not-good-yet for a while, and keep practising anyway",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD (Enchiridion 13: if you want to make progress, be content to seem foolish and senseless about external things, and do not wish to seem to know anything). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS · ENCHIRIDION 13",
+      "en": ["LOOK", "FOOLISH.", "KEEP", "LEARNING."],
+      "blocks": [
+        { "lines": ["ยกเบา ท่ายังไม่สวย", "กลัวคนในยิมจะมอง"] },
+        { "lines": ["อยากเก่งขึ้น", "ต้องยอมดูไม่เก่งไปก่อน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
