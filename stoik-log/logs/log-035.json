@@ -1,0 +1,20 @@
+{
+  "slug": "log-035",
+  "no": "LOG 035",
+  "date": "2026-11-08",
+  "topic": "Pausing before reacting: after a bad run, a bad weigh-in or a bad day at work we want to stress-eat or punish ourselves with an extra hard session; we wait a moment until the heat passes, and choose the response instead of letting the mood choose it",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (On Anger 3.12.4: the greatest remedy for anger is delay; also 2.29: ask for time so the first heat can cool). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA · ON ANGER",
+      "en": ["PAUSE.", "THEN", "RESPOND."],
+      "blocks": [
+        { "lines": ["วันที่ทุกอย่างพัง", "อยากกินระบาย", "หรือซ้อมหนักลงโทษตัวเอง"] },
+        { "lines": ["รอสักพักก่อนตอบสนอง", "ช่วงเวลานั้น คือที่ที่เราเลือกได้"], "tone": "muted" }
+      ]
+    }
+  ]
+}
