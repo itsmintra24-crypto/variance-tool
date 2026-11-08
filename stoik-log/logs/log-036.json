@@ -1,0 +1,20 @@
+{
+  "slug": "log-036",
+  "no": "LOG 036",
+  "date": "2026-11-09",
+  "topic": "Reviewing the day before sleep: a short, honest look back each night at what we did, where we slipped and what we left undone (training, food, sleep, work), not to punish ourselves but so tomorrow is a little better; the daily log as practice",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD (Discourses 3.10.2-3: he tells his students to keep the old Pythagorean verses at hand, do not let sleep close your eyes before you have gone over each act of the day: where did I go wrong, what did I do, what duty did I leave undone). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS · DISCOURSES 3.10",
+      "en": ["REVIEW", "THE DAY.", "THEN SLEEP."],
+      "blocks": [
+        { "lines": ["ก่อนนอน ถามตัวเองสั้น ๆ", "วันนี้ทำอะไร พลาดตรงไหน", "อะไรที่ควรทำ แต่ยังไม่ได้ทำ"] },
+        { "lines": ["ไม่ใช่เพื่อตำหนิตัวเอง", "แต่เพื่อให้พรุ่งนี้ดีขึ้นอีกนิด"], "tone": "muted" }
+      ]
+    }
+  ]
+}
