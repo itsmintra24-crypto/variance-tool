@@ -1,0 +1,15 @@
+{
+  "slug": "log-037",
+  "no": "LOG 037",
+  "date": "2026-11-09",
+  "topic": "Comparing yourself to others: scrolling other people's paces, lifts and bodies makes our own work feel not enough; we stop watching their lane and only check whether we did our own part today",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 4.18: how much time he gains who does not look to see what his neighbour says or does or thinks, but only at what he himself is doing; run straight for the line without glancing about). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "MARCUS AURELIUS · MEDITATIONS 4.18", "en": ["EYES ON", "YOUR OWN", "LANE."], "blocks": [
+      { "lines": ["เห็นคนอื่นวิ่งเร็ว ยกหนัก หุ่นดี", "แล้วรู้สึกว่าของเรายังไม่พอ"] },
+      { "lines": ["ไม่ต้องดูว่าเขาไปถึงไหน", "ดูแค่ว่าวันนี้ เราทำส่วนของเราครบไหม"], "tone": "muted" }
+    ] }
+  ]
+}
