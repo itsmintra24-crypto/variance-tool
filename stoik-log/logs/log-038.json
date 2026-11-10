@@ -1,0 +1,15 @@
+{
+  "slug": "log-038",
+  "no": "LOG 038",
+  "date": "2026-11-10",
+  "topic": "Delayed gratification: we want the treat now, the result now, the next level now; the mind runs ahead to what hasn't arrived yet; we take our share in moderation when it comes, and until then we do today's work",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD (Enchiridion 15: behave in life as at a banquet; when a dish comes round to you, take a moderate share; if it passes, do not hold it back; if it has not reached you yet, do not send your desire ahead to it, but wait until it comes). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "EPICTETUS · ENCHIRIDION 15", "en": ["WAIT", "YOUR", "TURN."], "blocks": [
+      { "lines": ["อยากกินตอนนี้ อยากเห็นผลเดี๋ยวนี้", "ใจวิ่งไปก่อนตัวเสมอ"] },
+      { "lines": ["ถึงคิวเมื่อไหร่ ค่อยรับแต่พอดี", "ยังไม่ถึง ก็ทำงานของวันนี้ไปก่อน"], "tone": "muted" }
+    ] }
+  ]
+}
