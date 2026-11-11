@@ -1,0 +1,15 @@
+{
+  "slug": "log-039",
+  "no": "LOG 039",
+  "date": "2026-11-12",
+  "topic": "Discomfort in hard effort: in the last minutes of an interval or the final reps of a set the mind says 'I can't' long before the body does; the discomfort of hard training is either light enough to bear or soon over, so we stay one more rep (pain that signals injury is different, and we stop)",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (Moral Letters 24.14, on pain: you are light if I can bear you, short if I cannot; also Letter 78.7, the greatest pain ends soonest). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "SENECA · LETTER 24", "en": ["BEARABLE", "OR", "BRIEF."], "blocks": [
+      { "lines": ["เซ็ตสุดท้าย นาทีสุดท้ายของการวิ่ง", "ใจบอกว่าไม่ไหว ก่อนร่างกายเสมอ"] },
+      { "lines": ["ถ้ายังทนได้ ก็แปลว่ามันเบากว่าที่คิด", "ถ้าทนไม่ได้จริง มันก็จบในไม่ช้า"], "tone": "muted" }
+    ] }
+  ]
+}
