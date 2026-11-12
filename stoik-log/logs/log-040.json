@@ -1,0 +1,15 @@
+{
+  "slug": "log-040",
+  "no": "LOG 040",
+  "date": "2026-11-13",
+  "topic": "Gratitude for the body we train: we keep counting what the body can't do yet (the pace, the lift, the shape) and forget what it already does every day; we count what we have, and train it without clinging to it",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 7.27: do not dwell on what you lack but on what you have; pick out the best of it and consider how much you would long for it if it were not yours; but take care not to prize it so much that losing it would disturb you). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "MARCUS AURELIUS · MEDITATIONS 7.27", "en": ["COUNT", "WHAT YOU", "HAVE."], "blocks": [
+      { "lines": ["เรานับแต่สิ่งที่ร่างกายยังไม่มี", "เพซที่ยังไม่ถึง หุ่นที่ยังไม่ใช่"] },
+      { "lines": ["ขาที่วิ่งได้ หลังที่ยกได้วันนี้", "ถ้าวันหนึ่งไม่มี เราจะอยากได้คืนแค่ไหน"], "tone": "muted" }
+    ] }
+  ]
+}
