@@ -1,0 +1,15 @@
+{
+  "slug": "log-041",
+  "no": "LOG 041",
+  "date": "2026-11-14",
+  "topic": "Asking for help: we keep training with the same bad form or the same stuck plan because asking a coach, a friend or someone better feels like admitting we are weak; letting someone check our form or our plan is part of the practice, not a failure of discipline",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (Moral Letters 52.2-3: no one is strong enough by himself to climb out; someone must lend a hand and someone must pull him up; citing Epicurus, some reach the truth unaided, others need help and will follow well if someone goes ahead). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "SENECA · LETTER 52", "en": ["NO ONE", "RISES", "ALONE."], "blocks": [
+      { "lines": ["ท่าเดิมที่รู้ว่าไม่ใช่ แผนเดิมที่ติดมานาน", "แต่ไม่ถามใคร เพราะกลัวดูไม่เก่ง"] },
+      { "lines": ["ไม่มีใครขึ้นมาได้เองคนเดียว", "ให้คนช่วยดู ก็คือส่วนหนึ่งของการฝึก"], "tone": "muted" }
+    ] }
+  ]
+}
