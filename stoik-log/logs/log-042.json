@@ -1,0 +1,15 @@
+{
+  "slug": "log-042",
+  "no": "LOG 042",
+  "date": "2026-11-15",
+  "topic": "Hard weeks as training: when work is heavy, sleep is short and life gets rough we want to stop training and wait for life to get easier; the difficulty is the sparring partner, and a hard week is exactly what the training was for",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD (Discourses 1.24.1-2: it is difficulties that show what people are; when one comes, remember that, like a trainer, God has matched you with a rough young opponent, so that you may become an Olympic victor, and that cannot happen without sweat). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "EPICTETUS · DISCOURSES 1.24", "en": ["HARDSHIP", "IS THE", "SPARRING", "PARTNER."], "blocks": [
+      { "lines": ["สัปดาห์ที่งานหนัก นอนก็ไม่พอ", "เราอยากหยุดฝึก รอให้ชีวิตง่ายก่อน"] },
+      { "lines": ["ความยากคือคู่ซ้อมที่ชีวิตส่งมาให้", "ที่ฝึกมาทั้งหมด ก็เพื่อวันแบบนี้"], "tone": "muted" }
+    ] }
+  ]
+}
