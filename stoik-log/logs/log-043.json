@@ -1,0 +1,20 @@
+{
+  "slug": "log-043",
+  "no": "LOG 043",
+  "date": "2026-11-16",
+  "topic": "Self-talk: the sentences we repeat to ourselves every day ('I'm lazy', 'I have no discipline', 'I can't') train the mind as surely as reps train the body; we notice the line we keep repeating and choose words that bring us back to training",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 5.16: as your habitual thoughts are, so will your mind be, for the soul is dyed by its thoughts; dye it with a continuous series of such thoughts). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS · MEDITATIONS 5.16",
+      "en": ["THOUGHTS", "DYE THE", "MIND."],
+      "blocks": [
+        { "lines": ["ทุกครั้งที่บอกตัวเองว่า", "“เรามันไม่มีวินัย”", "เราก็กำลังซ้อมให้เชื่อแบบนั้น"] },
+        { "lines": ["ใจถูกย้อมด้วยสีของความคิด", "ที่เราคิดซ้ำทุกวัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
