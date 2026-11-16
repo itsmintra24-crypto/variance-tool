@@ -1,0 +1,15 @@
+{
+  "slug": "log-044",
+  "no": "LOG 044",
+  "date": "2026-11-16",
+  "topic": "We don't lack time, we leak it: we say there is no time to train, then lose the evening to scrolling and small distractions; time isn't short, it slips away unnoticed, so we guard the hour for training the way we would guard money",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (On the Shortness of Life 1.3-2.1: it is not that we have a short time to live but that we waste much of it; life is long if you know how to use it; also Moral Letters 1.1-3 on time that is snatched, stolen or slips away). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    { "type": "closing", "kicker": "SENECA · ON THE SHORTNESS OF LIFE", "en": ["LONG", "ENOUGH,", "IF USED."], "blocks": [
+      { "lines": ["เราบอกว่าไม่มีเวลาซ้อม", "แต่คืนเดียวกัน ไถจอไปเป็นชั่วโมง"] },
+      { "lines": ["เวลาไม่ได้น้อย เราแค่ปล่อยให้มันรั่ว", "ชีวิตยาวพอ ถ้าเรารู้จักใช้มัน"], "tone": "muted" }
+    ] }
+  ]
+}
