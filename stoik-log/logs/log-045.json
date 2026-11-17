@@ -1,0 +1,20 @@
+{
+  "slug": "log-045",
+  "no": "LOG 045",
+  "date": "2026-11-17",
+  "topic": "Listening to the body: sleep debt, accumulated fatigue and the same nagging spot keep speaking, but we talk over them with the plan on paper; we listen first, then decide how hard to train today, without turning it into an excuse to skip",
+  "figure": "Zeno of Citium, founder of Stoicism c. 334-262 BC (Diogenes Laertius, Lives 7.23: to a youth talking nonsense, the reason we have two ears and only one mouth is that we may listen more and talk less). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "ZENO",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "ZENO OF CITIUM · FOUNDER OF STOICISM",
+      "en": ["TWO EARS.", "ONE MOUTH."],
+      "blocks": [
+        { "lines": ["ร่างกายบอกเราทุกวัน", "นอนไม่พอ ล้าสะสม เจ็บที่เดิม", "แต่เรามักพูดทับมันด้วยตารางซ้อม"] },
+        { "lines": ["เรามีหูสองข้าง แต่ปากเดียว", "ฟังร่างกายให้มากกว่าสั่งมัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
