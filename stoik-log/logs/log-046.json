@@ -1,0 +1,20 @@
+{
+  "slug": "log-046",
+  "no": "LOG 046",
+  "date": "2026-11-19",
+  "topic": "Judging the session: a slower run or a lighter lift is just a fact, but we immediately add 'I'm getting worse' or 'I'm bad at this'; what hurts is the verdict we attach, not the number, so we record the fact and drop the judgment",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD, a former slave (Enchiridion 5: people are disturbed not by things but by their judgments about things). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS · ENCHIRIDION 5",
+      "en": ["SLOW IS", "A FACT.", "BAD IS A", "JUDGMENT."],
+      "blocks": [
+        { "lines": ["วันนี้วิ่งช้ากว่าที่ตั้งไว้", "แล้วเราก็เติมเองว่า “เราแย่ลง”"] },
+        { "lines": ["สิ่งที่ทำร้ายเรา ไม่ใช่ตัวเลข", "แต่คือคำตัดสินที่เราใส่ให้มัน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
