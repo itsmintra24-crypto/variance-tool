@@ -1,0 +1,20 @@
+{
+  "slug": "log-047",
+  "no": "LOG 047",
+  "date": "2026-11-20",
+  "topic": "The 'no talent' excuse: we tell ourselves we're just not built for running or lifting and use it as a reason to stop; talent is not ours to choose, but patience, endurance of effort and showing up again need no gift, so we work on those instead",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 5.5: you say people cannot admire your quick wit; granted, but there are many other qualities of which you cannot say 'I have no gift for it', such as sincerity, dignity, endurance of toil, restraint in pleasures, contentment with little; show those, since they are entirely in your power). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS · MEDITATIONS 5.5",
+      "en": ["SHOWING UP", "NEEDS NO", "TALENT."],
+      "blocks": [
+        { "lines": ["เราบอกตัวเองว่า “ไม่มีพรสวรรค์”", "แล้วใช้มันเป็นเหตุผลที่จะหยุด"] },
+        { "lines": ["แต่ความอดทน ความสม่ำเสมอ", "การกลับมาซ้อมอีกวัน", "ไม่ต้องใช้พรสวรรค์เลยสักอย่าง"], "tone": "muted" }
+      ]
+    }
+  ]
+}
