@@ -1,0 +1,20 @@
+{
+  "slug": "log-048",
+  "no": "LOG 048",
+  "date": "2026-11-21",
+  "topic": "Crash plans and extreme restarts: every fresh start we cut everything, train every day and eat almost nothing, then fall apart within weeks; discipline is not punishment, so we choose a plan simple enough to keep every ordinary day",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (Moral Letters 5.4-5: do not court attention with rough dress, squalor and harsh self-denial; living according to nature is not torturing the body; philosophy asks for simple living, not penance). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA · LETTER 5",
+      "en": ["SIMPLE,", "NOT", "SEVERE."],
+      "blocks": [
+        { "lines": ["เริ่มใหม่ทีไร เราจัดหนักทุกครั้ง", "งดทุกอย่าง ซ้อมทุกวัน", "แล้วก็พังภายในไม่กี่สัปดาห์"] },
+        { "lines": ["วินัยไม่ใช่การลงโทษตัวเอง", "แผนที่เรียบง่ายพอจะทำได้ทุกวัน", "คือแผนที่อยู่กับเราได้นาน"], "tone": "muted" }
+      ]
+    }
+  ]
+}
