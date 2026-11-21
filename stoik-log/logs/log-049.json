@@ -1,0 +1,20 @@
+{
+  "slug": "log-049",
+  "no": "LOG 049",
+  "date": "2026-11-22",
+  "topic": "Waiting for a holiday to feel calm: when stressed we dream of the sea or the mountains and wait for leave that hasn't come; the quiet we need is already available every day, an easy run, a walk without the phone, ten minutes to come back to ourselves",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 4.3: people seek retreats for themselves in the country, by the sea, in the hills, but you can retire into yourself whenever you choose, and nowhere is quieter or freer from trouble than your own mind; make use of this retreat often and renew yourself). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS · MEDITATIONS 4.3",
+      "en": ["RETREAT", "INTO", "YOURSELF."],
+      "blocks": [
+        { "lines": ["เครียดทีไร เราคิดถึงทะเล ภูเขา", "รอวันลาพักร้อนที่ยังมาไม่ถึง"] },
+        { "lines": ["แต่ความสงบไม่ต้องรอวันหยุด", "วิ่งเบา ๆ เดินโดยไม่มีโทรศัพท์", "สิบนาทีก็พอให้กลับมาหาตัวเอง"], "tone": "muted" }
+      ]
+    }
+  ]
+}
