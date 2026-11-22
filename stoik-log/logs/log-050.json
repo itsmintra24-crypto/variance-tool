@@ -1,0 +1,20 @@
+{
+  "slug": "log-050",
+  "no": "LOG 050",
+  "date": "2026-11-23",
+  "topic": "The crowded gym: the machine we wanted is taken, the room is packed, the music is loud and the plan starts to slip; if we picture this before we leave home and decide to train anyway and keep our calm, small annoyances stop ruining the session",
+  "figure": "Epictetus, Stoic teacher c. 50-135 AD, a former slave (Enchiridion 4: before going to the public baths, picture what happens there, people splashing, pushing, insulting, stealing; then say 'I want to bathe and also keep my choice in harmony with nature', and when something gets in the way you will be ready). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "EPICTETUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "EPICTETUS · ENCHIRIDION 4",
+      "en": ["EXPECT IT.", "THEN", "TRAIN."],
+      "blocks": [
+        { "lines": ["ไปถึงยิม เครื่องที่จะใช้มีคนจอง", "คนเยอะ เพลงดัง แผนเริ่มเพี้ยน"] },
+        { "lines": ["ถ้านึกไว้ก่อนว่ามันจะเป็นแบบนี้", "เราจะหงุดหงิดน้อยลง", "แล้วยังซ้อมต่อได้ แค่ปรับนิดหน่อย"], "tone": "muted" }
+      ]
+    }
+  ]
+}
