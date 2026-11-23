@@ -1,0 +1,20 @@
+{
+  "slug": "log-051",
+  "no": "LOG 051",
+  "date": "2026-11-24",
+  "topic": "We already endure hardship, just for the wrong things: we stay up past midnight scrolling, wake tired after a night out, push through overwork without complaint, yet twenty minutes of training feels too hard; the capacity to endure is already there, the question is what we spend it on",
+  "figure": "Musonius Rufus, Roman Stoic teacher of the 1st century AD and teacher of Epictetus (Lecture 7, That one should disdain hardships: people endure great toil for base ends, lovers for an illicit affair, others for profit or fame, and acrobats and athletes risk and suffer for small rewards; it would be absurd not to bear hardship willingly for something good). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MUSONIUS RUFUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MUSONIUS RUFUS · LECTURE 7",
+      "en": ["YOU CAN", "ENDURE.", "SPEND IT", "WELL."],
+      "blocks": [
+        { "lines": ["เรานอนดึกเพื่อดูอีกตอนได้", "ทำงานหนักทั้งวันได้โดยไม่บ่น", "แต่ซ้อมยี่สิบนาทีกลับรู้สึกยาก"] },
+        { "lines": ["ความอดทน เรามีอยู่แล้ว", "คำถามคือเราใช้มันไปกับอะไร"], "tone": "muted" }
+      ]
+    }
+  ]
+}
