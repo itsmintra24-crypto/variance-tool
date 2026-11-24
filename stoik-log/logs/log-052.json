@@ -1,0 +1,20 @@
+{
+  "slug": "log-052",
+  "no": "LOG 052",
+  "date": "2026-11-25",
+  "topic": "Changing the people around us by example, not by lecturing: we nag family to eat better and send friends workout clips, and it rarely works; quietly training, cooking and sleeping well every day does more than advice",
+  "figure": "Seneca, Roman Stoic philosopher c. 4 BC-65 AD (Moral Letters 6.5: the road through precepts is long, the road through examples short and effective; Cleanthes would not have become who he was had he only heard Zeno lecture rather than shared his life). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "SENECA",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "SENECA · LETTER 6",
+      "en": ["LIVE IT.", "QUIETLY."],
+      "blocks": [
+        { "lines": ["เราอยากให้คนที่บ้านกินดีขึ้น", "อยากให้เพื่อนลุกมาขยับบ้าง", "เลยพูด เตือน ส่งคลิปให้ดูทุกวัน"] },
+        { "lines": ["เซเนกา นักปรัชญาโรมัน บอกไว้ว่า", "สอนด้วยคำพูด ทางมันยาว", "ทำให้เห็นเป็นตัวอย่าง ทางสั้นกว่า"], "tone": "muted" }
+      ]
+    }
+  ]
+}
