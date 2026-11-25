@@ -1,0 +1,36 @@
+{
+  "slug": "log-053",
+  "no": "LOG 053",
+  "date": "2026-11-26",
+  "topic": "Waiting for perfect conditions: we hold off training seriously until we have the ideal plan, free time, the right gear or a perfectly clean diet; we start with the imperfect week we actually have, and count a small step forward as real progress",
+  "figure": "Marcus Aurelius, Roman emperor and Stoic, 121-180 AD (Meditations 9.29: set to work if it is in your power, do not look around to see if anyone will know; do not hope for Plato's Republic, but be content if the smallest thing goes forward, and think that outcome no small matter). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "MARCUS AURELIUS",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "MARCUS AURELIUS · MEDITATIONS 9.29",
+      "en": [
+        "START",
+        "AS YOU",
+        "ARE."
+      ],
+      "blocks": [
+        {
+          "lines": [
+            "เรารอแผนที่ดีที่สุด รอเวลาว่าง",
+            "รอให้พร้อม แล้วค่อยเริ่ม"
+          ]
+        },
+        {
+          "lines": [
+            "มาร์คัส ออเรลิอัส จักรพรรดิโรมัน",
+            "เตือนตัวเองว่าอย่ารอโลกที่สมบูรณ์",
+            "ขยับได้นิดเดียว ก็ไม่ใช่เรื่องเล็ก"
+          ],
+          "tone": "muted"
+        }
+      ]
+    }
+  ]
+}
