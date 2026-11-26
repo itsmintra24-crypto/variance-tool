@@ -1,0 +1,20 @@
+{
+  "slug": "log-054",
+  "no": "LOG 054",
+  "date": "2026-11-27",
+  "topic": "Learning a new skill slowly: a new lift, running form or technique takes us longer to get than others and we decide we're not good at it; what we learn slowly and with effort tends to stay, so slow learning is not a reason to quit",
+  "figure": "Cato the Younger, Roman statesman who lived by Stoic philosophy, 95-46 BC (Plutarch, Life of Cato the Younger 1.3: as a boy he was slow to comprehend, but held fast what he had once grasped; Plutarch adds that those who learn with effort retain better). Paraphrased, not quoted. Single quote page, at Mintra's request",
+  "stamp": "CATO",
+  "handle": "@stoik_training",
+  "slides": [
+    {
+      "type": "closing",
+      "kicker": "CATO · PLUTARCH, LIFE OF CATO 1",
+      "en": ["SLOW TO", "LEARN.", "HARD TO", "LOSE."],
+      "blocks": [
+        { "lines": ["ท่าใหม่ เราจับทางช้ากว่าคนอื่น", "เลยสรุปว่าตัวเองไม่เก่ง"] },
+        { "lines": ["คาโต นักการเมืองโรมันสาย Stoic", "ตอนเด็กเรียนอะไรก็เข้าใจช้า", "แต่เข้าใจแล้ว ไม่เคยหลุดมือ"], "tone": "muted" }
+      ]
+    }
+  ]
+}
